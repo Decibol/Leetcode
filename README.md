@@ -18,17 +18,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Decibol/Leetcode/tree/master/0001-two-sum) |
+| [0073-set-matrix-zeroes](https://github.com/Decibol/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/Decibol/Leetcode/tree/master/0169-majority-element) |
 | [1036-rotting-oranges](https://github.com/Decibol/Leetcode/tree/master/1036-rotting-oranges) |
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/Decibol/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [1036-rotting-oranges](https://github.com/Decibol/Leetcode/tree/master/1036-rotting-oranges) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Decibol/Leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Decibol/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0073-set-matrix-zeroes](https://github.com/Decibol/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/Decibol/Leetcode/tree/master/0169-majority-element) |
 ## Divide and Conquer
 |  |
