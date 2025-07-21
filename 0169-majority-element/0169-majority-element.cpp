@@ -1,7 +1,6 @@
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        // Boyre-Moore Majority Voting Algorithm
         int count = 0;
         int candidate = 0;
 
@@ -9,14 +8,15 @@ public:
             if (count == 0){
                 candidate = nums[i];
             }
-            
+
             if (nums[i] == candidate){
-                count += 1;
+                count++;
             }
-            else {
-                count -= 1;
+            else{
+                count--;
             }
         }
+
         return candidate;
     }
 };
