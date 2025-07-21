@@ -17,6 +17,7 @@ public:
             if (i + 1 < s.size() && roman_to_int[s[i]] < roman_to_int[s[i + 1]]){
                 answer -= roman_to_int[s[i]];
             }
+            
             else{
                 answer += roman_to_int[s[i]];
             }
