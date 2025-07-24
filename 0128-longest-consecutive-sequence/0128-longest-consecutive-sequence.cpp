@@ -7,10 +7,9 @@ public:
         for (int num : numSet){
             if (numSet.find(num - 1) == numSet.end()){
                 int count = 1;
-                int current = num;
 
-                while (numSet.find(current + 1) != numSet.end()){
-                    current++;
+                while (numSet.find(num + 1) != numSet.end()){
+                    num++;
                     count++;
                 }
 
