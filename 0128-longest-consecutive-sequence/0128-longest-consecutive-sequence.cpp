@@ -1,11 +1,7 @@
 class Solution {
 public:
     int longestConsecutive(std::vector<int>& nums) {
-        std::set<int> order;
-
-        for (int i = 0; i < nums.size(); ++i) {
-            order.insert(nums[i]);
-        }
+        set<int> order(nums.begin(), nums.end());
 
         int longest = 1;
         int count = 1;
