@@ -3,14 +3,10 @@ public:
     int uniquePaths(int m, int n) {
         vector<int> row(n, 1);
 
-        for (int i = m - 2; i > -1; --i){
-            vector<int> newRow(n, 1);
-
+        for (int i = 1; i < m; ++i){
             for (int j = n - 2; j > -1; --j){
-                newRow[j] = newRow[j + 1] + row[j];
+                row[j] += row[j + 1];
             }
-
-            row = newRow;
         }
 
         return row[0];
