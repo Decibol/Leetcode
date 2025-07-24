@@ -15,13 +15,11 @@ public:
         ListNode *slow = &dummy;
         ListNode *fast = &dummy;
 
-        int count = 0;
-
         for (int i = 0; i <= n; ++i){
             fast = fast->next;
         }
 
-        while (fast != NULL){
+        while (fast){
             slow = slow->next;
             fast = fast->next;
         }
