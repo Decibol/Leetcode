@@ -6,11 +6,12 @@ public:
 
         for (int num : numSet){
             if (numSet.find(num - 1) == numSet.end()){
+                int current = num;
                 int count = 1;
 
-                while (numSet.find(num + 1) != numSet.end()){
-                    num++;
+                while (numSet.find(current + 1) != numSet.end()){
                     count++;
+                    current++;
                 }
 
                 longest = max(longest, count);
