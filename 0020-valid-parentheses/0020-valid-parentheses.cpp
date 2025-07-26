@@ -3,8 +3,8 @@ public:
     bool isValid(string s) {
         stack<char> st;
         unordered_map<char, char> charSet = {
-            {']', '['},
             {')', '('},
+            {']', '['},
             {'}', '{'}
         };
 
@@ -13,12 +13,14 @@ public:
                 if (st.empty() || st.top() != charSet[s[i]]){
                     return false;
                 }
+
                 st.pop();
             }
             else{
                 st.push(s[i]);
             }
         }
+
         return st.empty();
     }
 };
