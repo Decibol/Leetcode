@@ -12,7 +12,6 @@ class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
         if (!head) return {};
-        if (k == 0) return head;
 
         ListNode *left = head;
         ListNode *right = head;
