@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Decibol/Leetcode/tree/master/0020-valid-parentheses) |
+| [0225-implement-stack-using-queues](https://github.com/Decibol/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/Decibol/Leetcode/tree/master/0234-palindrome-linked-list) |
 ## Sliding Window
 |  |
@@ -172,4 +173,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Decibol/Leetcode/tree/master/0062-unique-paths) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/Decibol/Leetcode/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/Decibol/Leetcode/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
