@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool isValid(string s) {
-        stack<char> st;
+        stack<int> st;
         unordered_map<char, char> charSet = {
             {')', '('},
             {']', '['},
