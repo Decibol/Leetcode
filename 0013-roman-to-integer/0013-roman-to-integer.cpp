@@ -14,10 +14,9 @@ public:
         int answer = 0;
 
         for (int i = 0; i < s.size(); ++i){
-            if (i + 1 < s.size() && roman_to_int[s[i]] < roman_to_int[s[i + 1]]){
+            if (i + 1 < s.size() && roman_to_int[s[i + 1]] > roman_to_int[s[i]]){
                 answer -= roman_to_int[s[i]];
             }
-            
             else{
                 answer += roman_to_int[s[i]];
             }
