@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Decibol/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Decibol/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Decibol/Leetcode/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/Decibol/Leetcode/tree/master/0242-valid-anagram) |
 | [0496-next-greater-element-i](https://github.com/Decibol/Leetcode/tree/master/0496-next-greater-element-i) |
 | [1319-unique-number-of-occurrences](https://github.com/Decibol/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [2486-most-frequent-even-element](https://github.com/Decibol/Leetcode/tree/master/2486-most-frequent-even-element) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Decibol/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Decibol/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/Decibol/Leetcode/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/Decibol/Leetcode/tree/master/0242-valid-anagram) |
 ## Counting
 |  |
 | ------- |
@@ -102,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/Decibol/Leetcode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Decibol/Leetcode/tree/master/0049-group-anagrams) |
 | [0151-reverse-words-in-a-string](https://github.com/Decibol/Leetcode/tree/master/0151-reverse-words-in-a-string) |
+| [0242-valid-anagram](https://github.com/Decibol/Leetcode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/Decibol/Leetcode/tree/master/0344-reverse-string) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Decibol/Leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0686-repeated-string-match](https://github.com/Decibol/Leetcode/tree/master/0686-repeated-string-match) |
