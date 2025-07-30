@@ -2,12 +2,11 @@ class Solution {
 public:
     string reverseWords(string s) {
         stack<string> st;
-        int n = s.size();
+        string result = "";
         int i = 0;
-        int j = 0;
-        
-        while (j <= n){
-            if (j == n || s[j] == ' '){
+
+        for (int j = 0; j <= s.size(); ++j){
+            if (j == s.size() || s[j] == ' '){
                 if (i < j){
                     string sub = s.substr(i, j - i);
                     st.push(sub);
@@ -15,13 +14,9 @@ public:
                 
                 i = j + 1;
             }
-
-            j++;
         }
 
-        string result = "";
-
-        while (!st.empty()){
+        while(!st.empty()){
             result += st.top();
             st.pop();
             if (!st.empty()) result += " ";
