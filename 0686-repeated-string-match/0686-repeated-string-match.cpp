@@ -4,7 +4,7 @@ public:
         string repeated = a;
         int count = 1;
 
-        while (repeated.size() < b.size()){
+        while (repeated.length() < b.length()){
             repeated += a;
             count++;
         }
@@ -15,7 +15,7 @@ public:
 
         repeated += a;
         count++;
-
+        
         if (repeated.find(b) != string::npos){
             return count;
         }
