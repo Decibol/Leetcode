@@ -5,15 +5,10 @@ public:
 
         unordered_map<char, int> freq;
 
-        for (char c : s){
-            freq[c] += 1;
-        }
+        for (char c : s) freq[c]++;
+        for (char c : t) freq[c]--;
 
-        for (char c : t){
-            freq[c] -= 1;
-        }
-
-        bool allZero = all_of(freq.begin(), freq.end(), [](auto& pair) {
+        bool allZero = all_of(freq.begin(), freq.end(), [](const auto& pair){
             return pair.second == 0;
         });
 
