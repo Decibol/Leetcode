@@ -1,10 +1,10 @@
 class Solution {
 public:
     int myAtoi(string s) {
-        int i = 0;
         int n = s.size();
+        int i = 0;
 
-        while (i < n &&  s[i] == ' '){
+        while (i < n && s[i] == ' '){
             i++;
         }
 
