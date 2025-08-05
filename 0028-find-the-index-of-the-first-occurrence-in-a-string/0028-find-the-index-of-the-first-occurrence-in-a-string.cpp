@@ -6,7 +6,7 @@ public:
         if (needle.size() == 0) return 0;
         int left = 0;
 
-        while (left < haystack.size()){
+        while (left <= haystack.size()){
             if (needle[0] == haystack[left]){
                 string substring = haystack.substr(left, n);
 
