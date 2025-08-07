@@ -1,26 +1,21 @@
 class Solution {
 public:
     bool isValid(string s) {
-        unordered_map<char, char> charSet = {
+        unordered_map<char, char> pair = {
             {')', '('},
             {']', '['},
             {'}', '{'}
         };
-
         stack<char> st;
 
         for (int i = 0; i < s.size(); ++i){
-            if (charSet.find(s[i]) != charSet.end()){
-                if (st.empty() || st.top() != charSet[s[i]]){
-                    return false;
-                }
-                
+            if (!st.empty() && pair[s[i]] == st.top()){
                 st.pop();
             }
             else{
                 st.push(s[i]);
             }
-        }
+        } 
 
         return st.empty();
     }
