@@ -11,16 +11,16 @@ private:
     unordered_map<int, Node*> cache;
     Node *head, *tail;
 
-    void removeNode(Node* node){
-        node->prev->next = node->next;
+    void removeNode(Node *node){
         node->next->prev = node->prev;
+        node->prev->next = node->next;
     }
 
-    void insertAtHead(Node* node){
+    void insertAtHead(Node *node){
         node->next = head->next;
         head->next->prev = node;
-        head->next = node;
         node->prev = head;
+        head->next = node;
     }
 
 public:
@@ -55,7 +55,7 @@ public:
                 cache.erase(lru->key);
                 delete lru;
             }
-            
+
             Node *newNode = new Node(key, value);
             cache[key] = newNode;
             insertAtHead(newNode);
