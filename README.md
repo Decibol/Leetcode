@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Decibol/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0645-set-mismatch](https://github.com/Decibol/Leetcode/tree/master/0645-set-mismatch) |
 | [0739-daily-temperatures](https://github.com/Decibol/Leetcode/tree/master/0739-daily-temperatures) |
+| [0883-car-fleet](https://github.com/Decibol/Leetcode/tree/master/0883-car-fleet) |
 | [1036-rotting-oranges](https://github.com/Decibol/Leetcode/tree/master/1036-rotting-oranges) |
 | [1319-unique-number-of-occurrences](https://github.com/Decibol/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [2486-most-frequent-even-element](https://github.com/Decibol/Leetcode/tree/master/2486-most-frequent-even-element) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/Decibol/Leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Decibol/Leetcode/tree/master/0242-valid-anagram) |
 | [0645-set-mismatch](https://github.com/Decibol/Leetcode/tree/master/0645-set-mismatch) |
+| [0883-car-fleet](https://github.com/Decibol/Leetcode/tree/master/0883-car-fleet) |
 ## Counting
 |  |
 | ------- |
@@ -137,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Decibol/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Decibol/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Decibol/Leetcode/tree/master/0739-daily-temperatures) |
+| [0883-car-fleet](https://github.com/Decibol/Leetcode/tree/master/0883-car-fleet) |
 ## Sliding Window
 |  |
 | ------- |
@@ -249,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Decibol/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Decibol/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Decibol/Leetcode/tree/master/0739-daily-temperatures) |
+| [0883-car-fleet](https://github.com/Decibol/Leetcode/tree/master/0883-car-fleet) |
 ## Trie
 |  |
 | ------- |
