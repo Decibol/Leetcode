@@ -11,8 +11,8 @@ public:
 
         stack<double> st;
 
-        for (auto const& [pos, spd] : cars){
-            double time = (double)(target - pos) / spd;
+        for (auto [pos, spd] : cars){
+            double time = (double) (target - pos) / spd;
 
             if (st.empty() || time > st.top()){
                 st.push(time);
