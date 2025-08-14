@@ -1,33 +1,14 @@
 class Solution {
 public:
     string largestGoodInteger(string num) {
-        string result = "";
-        result += num[0];
+        vector<string> substrings = {"999", "888", "777", "666", "555", "444", "333", "222", "111", "000"};
 
-        int maxInteger = -1;
-
-        for (int i = 1; i < num.size(); ++i){
-            if (num[i] == num[i - 1]){
-                result += num[i];
-            }
-            else{
-                result = num[i];
-            }
-
-            if (result.size() == 3){
-                int integer = stoi(result);
-                maxInteger = max(maxInteger, integer);
+        for (string str : substrings){
+            if (num.find(str) != string::npos){
+                return str;
             }
         }
 
-        if (maxInteger == 0){
-            return "000";
-        }
-
-        if (maxInteger == -1){
-            return "";
-        }
-
-        return to_string(maxInteger);
+        return "";
     }
 };
