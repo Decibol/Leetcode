@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0412-fizz-buzz](https://github.com/Decibol/Leetcode/tree/master/0412-fizz-buzz) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/Decibol/Leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0686-repeated-string-match](https://github.com/Decibol/Leetcode/tree/master/0686-repeated-string-match) |
+| [2346-largest-3-same-digit-number-in-string](https://github.com/Decibol/Leetcode/tree/master/2346-largest-3-same-digit-number-in-string) |
 ## Stack
 |  |
 | ------- |
