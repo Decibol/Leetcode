@@ -3,30 +3,28 @@ public:
     int mostFrequentEven(vector<int>& nums) {
         unordered_map<int, int> pair;
 
-        for (int i = 0; i < nums.size(); ++i){
-            if (nums[i] % 2 == 0){
-                pair[nums[i]]++;
+        for (int num : nums){
+            if (num % 2 == 0){
+                pair[num]++;
             }
         }
 
-        int most_freq = 0;
         int candidate = -1;
+        int max_freq = 0;
 
         for (auto [key, value] : pair){
-            if (value >= most_freq){
-
-                if (value == most_freq){
+            if (value >= max_freq){
+                if (value == max_freq){
                     candidate = min(candidate, key);
                 }
-
                 else{
                     candidate = key;
                 }
 
-                most_freq = value;
+                max_freq = value;
             }
         }
 
-        return candidate == -1 ? -1 : candidate;
+        return candidate;
     }
 };
