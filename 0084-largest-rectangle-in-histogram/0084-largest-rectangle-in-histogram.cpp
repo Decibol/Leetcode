@@ -9,7 +9,7 @@ public:
             while (!st.empty() && heights[i] < heights[st.top()]){
                 int height = heights[st.top()];
                 st.pop();
-                int width = st.empty() ? i : i - st.top() - 1;
+                int width = st.empty() ? 1 : i - st.top() - 1;
                 maxArea = max(maxArea, height * width);
             }
 
