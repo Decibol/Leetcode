@@ -145,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Decibol/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Decibol/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/Decibol/Leetcode/tree/master/0883-car-fleet) |
+| [0937-online-stock-span](https://github.com/Decibol/Leetcode/tree/master/0937-online-stock-span) |
 ## Sliding Window
 |  |
 | ------- |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/Decibol/Leetcode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/Decibol/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Decibol/Leetcode/tree/master/0232-implement-queue-using-stacks) |
+| [0937-online-stock-span](https://github.com/Decibol/Leetcode/tree/master/0937-online-stock-span) |
 ## Queue
 |  |
 | ------- |
@@ -269,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Decibol/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Decibol/Leetcode/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/Decibol/Leetcode/tree/master/0883-car-fleet) |
+| [0937-online-stock-span](https://github.com/Decibol/Leetcode/tree/master/0937-online-stock-span) |
 ## Trie
 |  |
 | ------- |
@@ -302,4 +305,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0412-fizz-buzz](https://github.com/Decibol/Leetcode/tree/master/0412-fizz-buzz) |
+## Data Stream
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/Decibol/Leetcode/tree/master/0937-online-stock-span) |
 <!---LeetCode Topics End-->
