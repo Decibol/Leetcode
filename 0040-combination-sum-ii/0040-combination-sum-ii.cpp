@@ -8,7 +8,7 @@ public:
 
         for (int i = start; i < candidates.size(); ++i){
             if (i > start && candidates[i] == candidates[i - 1]) continue;
-            if (currSum > target) continue;
+            if (currSum > target) break;
 
             current.push_back(candidates[i]);
             backtrack(i + 1, target, candidates, currSum + candidates[i], current, result);
