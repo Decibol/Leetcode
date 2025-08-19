@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/Decibol/Leetcode/tree/master/0035-search-insert-position) |
 | [0042-trapping-rain-water](https://github.com/Decibol/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/Decibol/Leetcode/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/Decibol/Leetcode/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/Decibol/Leetcode/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/Decibol/Leetcode/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/Decibol/Leetcode/tree/master/0053-maximum-subarray) |
@@ -104,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Decibol/Leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/Decibol/Leetcode/tree/master/0018-4sum) |
+| [0047-permutations-ii](https://github.com/Decibol/Leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/Decibol/Leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/Decibol/Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/Decibol/Leetcode/tree/master/0075-sort-colors) |
@@ -359,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0046-permutations](https://github.com/Decibol/Leetcode/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/Decibol/Leetcode/tree/master/0047-permutations-ii) |
 | [0078-subsets](https://github.com/Decibol/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Decibol/Leetcode/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
