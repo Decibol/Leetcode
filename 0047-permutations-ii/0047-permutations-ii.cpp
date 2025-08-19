@@ -1,26 +1,30 @@
 class Solution {
 public:
-    void backtrack(int start, vector<int>& nums, vector<vector<int>>& result){
-        if (start == nums.size()){
-            result.push_back(nums);
+    void backtrack(vector<bool>& used, vector<int>& nums, vector<int>& current, vector<vector<int>>& result){
+        if (current.size() == nums.size()){
+            result.push_back(current);
+            return;
         }
 
-        unordered_set<int> used;
-        for (int i = start; i < nums.size(); ++i){
-            if (used.count(nums[i])) continue;
+        for (int i = 0; i < nums.size(); ++i){
+            if (used[i]) continue;
 
-            used.insert(nums[i]);
-            swap(nums[i], nums[start]);
-            backtrack(start + 1, nums, result);
-            swap(nums[i], nums[start]);
+            if (i > 0 && nums[i] == nums[i - 1] && !used[i - 1]) continue;
+
+            used[i] = true;
+            current.push_back(nums[i]);
+            backtrack(used, nums, current, result);
+            current.pop_back();
+            used[i] = false;
         }
     }
 
     vector<vector<int>> permuteUnique(vector<int>& nums) {
         vector<vector<int>> result;
+        vector<int> current;
+        vector<bool> used(nums.size(), false);
         sort(nums.begin(), nums.end());
-
-        backtrack(0, nums, result);
+        backtrack(used, nums, current, result);
 
         return result;
     }
