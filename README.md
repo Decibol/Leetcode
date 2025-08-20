@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Decibol/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/Decibol/Leetcode/tree/master/0038-count-and-say) |
 | [0049-group-anagrams](https://github.com/Decibol/Leetcode/tree/master/0049-group-anagrams) |
+| [0131-palindrome-partitioning](https://github.com/Decibol/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/Decibol/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0165-compare-version-numbers](https://github.com/Decibol/Leetcode/tree/master/0165-compare-version-numbers) |
 | [0242-valid-anagram](https://github.com/Decibol/Leetcode/tree/master/0242-valid-anagram) |
@@ -207,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0118-pascals-triangle](https://github.com/Decibol/Leetcode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Decibol/Leetcode/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Decibol/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0131-palindrome-partitioning](https://github.com/Decibol/Leetcode/tree/master/0131-palindrome-partitioning) |
 ## Math
 |  |
 | ------- |
@@ -372,4 +374,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0077-combinations](https://github.com/Decibol/Leetcode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/Decibol/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Decibol/Leetcode/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/Decibol/Leetcode/tree/master/0131-palindrome-partitioning) |
 <!---LeetCode Topics End-->
