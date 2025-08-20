@@ -4,8 +4,8 @@ public:
         while (left < right){
             if (s[left] != s[right]) return false;
 
-            left++;
-            right--;
+            ++left;
+            --right;
         }
 
         return true;
