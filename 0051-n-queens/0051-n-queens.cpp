@@ -14,22 +14,20 @@ public:
             negDiagonal[row - col + n - 1] = true;
             board[row][col] = 'Q';
 
-            backtrack(row + 1, n, board, cols, posDiagonal, negDiagonal, result);      
+            backtrack(row + 1, n, board, cols, posDiagonal, negDiagonal, result);
 
             cols[col] = false;
             posDiagonal[row + col] = false;
             negDiagonal[row - col + n - 1] = false;
             board[row][col] = '.';
-
         }
     }
 
     vector<vector<string>> solveNQueens(int n) {
-        int row = 0;
         vector<string> board(n, string(n, '.'));
         vector<bool> cols(n, false);
-        vector<bool> posDiagonal(2 * n - 1, false);
-        vector<bool> negDiagonal(2 * n - 1, false);
+        vector<bool> posDiagonal(2*n - 1, false);
+        vector<bool> negDiagonal(2*n - 1, false);
         vector<vector<string>> result;
 
         backtrack(0, n, board, cols, posDiagonal, negDiagonal, result);
