@@ -1,19 +1,19 @@
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        unordered_map<string, vector<string>> anagrams;
         vector<vector<string>> answer;
-        unordered_map<string, vector<string>> anagramGroups;
-        
-        for (string s : strs){
-            string key = s;
+
+        for (string str : strs){
+            string key = str;
             sort(key.begin(), key.end());
-            anagramGroups[key].push_back(s);
+            anagrams[key].push_back(str);
         }
 
-        for (const auto& pair : anagramGroups){
+        for (const auto& pair : anagrams){
             answer.push_back(pair.second);
         }
 
-        return answer;        
+        return answer;
     }
 };
