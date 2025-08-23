@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void backtrack(int start, string& digits, unordered_map<char, string> charMap, string current, vector<string>& result){
+    void backtrack(int start, string& digits, unordered_map<char, string>& charMap, string current, vector<string>& result){
         if (start == digits.size()){
             result.push_back(current);
             return;
