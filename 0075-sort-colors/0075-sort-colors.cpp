@@ -1,23 +1,22 @@
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-        vector<int> freq(3, 0);
+        int low = 0;
+        int high = nums.size() - 1;
+        int i = 0;
 
-        for (int i = 0; i < nums.size(); ++i){
-            freq[nums[i]]++;
-        }
-
-        nums.clear();
-
-        int count = 0;
-
-        while (count < freq.size()){
-            if (freq[count] == 0){
-                count++;
+        while (i <= high){
+            if (nums[i] == 0){
+                swap(nums[low], nums[i]);
+                low++;
+                i++;
+            }
+            else if (nums[i] == 1){
+                i++;
             }
             else{
-                nums.push_back(count);
-                freq[count]--;
+                swap(nums[i], nums[high]);
+                high--;
             }
         }
     }
