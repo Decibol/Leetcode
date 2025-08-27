@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    void bfs(TreeNode *root, vector<int>& result){
+    void bfs(TreeNode *root, int& result){
         queue<TreeNode*> q;
         q.push(root);
 
@@ -23,7 +23,7 @@ public:
                 q.pop();
 
                 if (i == 0){
-                    result.push_back(node->val);
+                    result = node->val;
                 }
 
                 if (node->left) q.push(node->left);
@@ -33,10 +33,10 @@ public:
     }
 
     int findBottomLeftValue(TreeNode* root) {
-        vector<int> result;
+        int result;
 
         bfs(root, result);
 
-        return result.back();    
+        return result;    
     }
 };
