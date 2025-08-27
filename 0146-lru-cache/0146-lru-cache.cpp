@@ -12,15 +12,15 @@ private:
     Node *head, *tail;
 
     void removeNode(Node *node){
-        node->next->prev = node->prev;
         node->prev->next = node->next;
+        node->next->prev = node->prev;
     }
 
     void insertAtHead(Node *node){
         node->next = head->next;
-        head->next->prev = node;
-        node->prev = head;
         head->next = node;
+        node->next->prev = node;
+        node->prev = head;
     }
 
 public:
@@ -34,10 +34,11 @@ public:
     
     int get(int key) {
         if (cache.find(key) == cache.end()) return -1;
+
         Node *node = cache[key];
         removeNode(node);
         insertAtHead(node);
-        
+
         return node->val;
     }
     
@@ -51,8 +52,8 @@ public:
         else{
             if (cache.size() == capacity){
                 Node *lru = tail->prev;
-                removeNode(lru);
                 cache.erase(lru->key);
+                removeNode(lru);
                 delete lru;
             }
 
