@@ -11,32 +11,25 @@
  */
 class Solution {
 public:
-    void bfs(TreeNode *root, int& result){
-        queue<TreeNode*> q;
-        q.push(root);
+    void dfs(TreeNode *node, int depth, int& prevDepth, int& result){
+        if (!node) return;
 
-        while (!q.empty()){
-            int size = q.size();
-
-            for (int i = 0; i < size; ++i){
-                TreeNode *node = q.front();
-                q.pop();
-
-                if (i == 0){
-                    result = node->val;
-                }
-
-                if (node->left) q.push(node->left);
-                if (node->right) q.push(node->right);
-            }
+        if (depth > prevDepth){
+            result = node->val;
+            prevDepth = depth;
         }
+
+        if (node->left) dfs(node->left, depth + 1, prevDepth, result);
+        if (node->right) dfs(node->right, depth + 1, prevDepth, result);
     }
 
     int findBottomLeftValue(TreeNode* root) {
-        int result;
+        int result = root->val;
+        int depth = 0;
+        int prevDepth = 0;
 
-        bfs(root, result);
+        dfs(root, depth, prevDepth, result);
 
-        return result;    
+        return result;
     }
 };
