@@ -11,38 +11,21 @@
  */
 class Solution {
 public:
-    void dfs(TreeNode *root, int depth, vector<int>& result, int direction){
-        if (!root){
-            result.push_back(INT_MAX);
-            return;
+    bool isMirror(TreeNode* n1, TreeNode* n2){
+        if (!n1 && !n2){
+            return true;
+        }
+        
+        if (!n1 || !n2){
+            return false;
         }
 
-        if (direction == 0){
-            result.push_back(root->val);
-            dfs(root->left, depth + 1, result, direction);
-
-            if (depth >= 1){
-                dfs(root->right, depth + 1, result, direction);
-            }
-
-        }
-        else if (direction == 1){
-            result.push_back(root->val);
-            dfs(root->right, depth + 1, result, direction);
-
-            if (depth >= 1){
-                dfs(root->left, depth + 1, result, direction);
-            }
-        }
+        return n1->val == n2->val && isMirror(n1->left, n2->right) && isMirror(n1->right, n2->left);
     }
 
     bool isSymmetric(TreeNode* root) {
-        vector<int> leftSubtree;
-        vector<int> rightSubtree;
+        if (!root) return true;
 
-        dfs(root, 0, leftSubtree, 0);
-        dfs(root, 0, rightSubtree, 1);
-
-        return leftSubtree == rightSubtree;
+        return isMirror(root->left, root->right);
     }
 };
