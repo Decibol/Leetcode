@@ -11,18 +11,18 @@
  */
 class Solution {
 public:
-    void preorder(TreeNode* root, vector<int>& result){
-        if (!root) return; 
-        
-        result.push_back(root->val);
-        preorder(root->left, result);
-        preorder(root->right, result);
-    }
-
     vector<int> preorderTraversal(TreeNode* root) {
         vector<int> result;
 
-        preorder(root, result);
+        function<void(TreeNode*)> preorder = [&](TreeNode* node){
+            if (!node) return;
+
+            result.push_back(node->val);
+            preorder(node->left);
+            preorder(node->right);
+        };
+
+        preorder(root);
 
         return result;
     }
