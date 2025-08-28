@@ -11,24 +11,23 @@
  */
 class Solution {
 public:
-    void dfs(TreeNode *node, int depth, int& prevDepth, int& result){
-        if (!node) return;
-
-        if (depth > prevDepth){
-            result = node->val;
-            prevDepth = depth;
+    void dfs(TreeNode *root, int depth, int& maxDepth, int& result){
+        if (!root) return;
+        if (depth > maxDepth){
+            result = root->val;
+            maxDepth = depth;
         }
 
-        if (node->left) dfs(node->left, depth + 1, prevDepth, result);
-        if (node->right) dfs(node->right, depth + 1, prevDepth, result);
+        if (root->left) dfs(root->left, depth + 1, maxDepth, result);
+        if (root->right) dfs(root->right, depth + 1, maxDepth, result);
     }
 
     int findBottomLeftValue(TreeNode* root) {
-        int result = root->val;
         int depth = 0;
-        int prevDepth = 0;
+        int maxDepth = 0;
+        int result = root->val;
 
-        dfs(root, depth, prevDepth, result);
+        dfs(root, depth, maxDepth, result);
 
         return result;
     }
