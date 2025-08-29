@@ -28,8 +28,8 @@ public:
 
                 long long normalized = idx - level_leftmost;
 
-                if (node->left) q.push({node->left, 2 * normalized + 1});
-                if (node->right) q.push({node->right, 2 * normalized + 2});  
+                if (node->left) q.push({node->left, 2 * normalized});
+                if (node->right) q.push({node->right, 2 * normalized + 1});  
             }
         }
     }
