@@ -13,7 +13,7 @@ class Solution {
 public:
     void dfs(TreeNode *node, int level, vector<int>& result){
         if (!node) return;
-        
+
         if (level == result.size()){
             result.push_back(node->val);
         }
