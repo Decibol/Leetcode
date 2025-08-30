@@ -13,7 +13,7 @@ class Solution {
 public:
     vector<vector<int>> verticalTraversal(TreeNode* root) {
         if (!root) return {{}};
-        
+
         vector<vector<int>> result;
         map<int, vector<pair<int, int>>> verticalGroups;
         queue<tuple<TreeNode*, int, int>> q;
@@ -22,7 +22,7 @@ public:
         while (!q.empty()){
             int size = q.size();
 
-            for (int i = 0; i < size; ++i){
+            for (int i = 0; i < q.size(); ++i){
                 auto [node, col, row] = q.front();
                 q.pop();
 
@@ -37,8 +37,8 @@ public:
             }
         }
 
-        for (auto [col, nodes] : verticalGroups){
-            sort(nodes.begin(), nodes. end(), [](auto &a, auto&b){
+        for (auto& [col, nodes] : verticalGroups){
+            sort(nodes.begin(), nodes.end(), [](auto& a, auto& b){
                 if (a.first == b.first){
                     return a.second < b.second;
                 }
@@ -47,14 +47,14 @@ public:
             });
 
             vector<int> column;
-
-            for (auto& [row, val] : nodes){
+            
+            for (auto [row, val] : nodes){
                 column.push_back(val);
             }
 
             result.push_back(column);
         }
 
-        return result; 
+        return result;
     }
 };
