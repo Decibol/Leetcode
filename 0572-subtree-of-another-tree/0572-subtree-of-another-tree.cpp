@@ -11,31 +11,21 @@
  */
 class Solution {
 public:
-    void preorder(TreeNode *node, string& s){
-        if (!node){
-            s += "(#)";
-            return;
-        }
+    bool isSame(TreeNode *n1, TreeNode *n2){
+        if (!n1 && !n2) return true;
 
-        s += "(" + to_string(node->val) + ")";
+        if (!n1 || !n2) return false;
 
-        preorder(node->left, s);
-        preorder(node->right, s);
+        if (n1->val != n2->val) return false;
+
+        return isSame(n1->left, n2->left) && isSame(n1->right, n2->right);
     }
 
     bool isSubtree(TreeNode* root, TreeNode* subRoot) {
-        string s1 = "";
-        string s2 = "";
+        if (!root) return false;
 
-        preorder(root, s1);
-        preorder(subRoot, s2);
-        
-        cout << s1 << endl << s2;
+        if (isSame(root, subRoot)) return true;
 
-        if (s1.find(s2) != string::npos){
-            return true;
-        }
-
-        return false;
+        return isSubtree(root->left, subRoot) || isSubtree(root->right, subRoot);
     }
 };
