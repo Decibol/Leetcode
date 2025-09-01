@@ -11,31 +11,21 @@
  */
 class Solution {
 public:
-    void bfs(TreeNode *root){
+    TreeNode* invertTree(TreeNode* root) {
+        if (!root) return nullptr;
+
         queue<TreeNode*> q;
         q.push(root);
 
         while (!q.empty()){
-            int size = q.size();
+            TreeNode *node = q.front();
+            q.pop();
 
-            for (int i = 0; i < size; ++i){
-                TreeNode *node = q.front();
-                q.pop();
+            swap(node->left, node->right);
 
-                TreeNode *temp = node->left;
-                node->left = node->right;
-                node->right = temp;
-
-                if (node->left) q.push(node->left);
-                if (node->right) q.push(node->right);
-            }
+            if (node->left) q.push(node->left);
+            if (node->right) q.push(node->right);
         }
-    }
-
-    TreeNode* invertTree(TreeNode* root) {
-        if (!root) return nullptr;
-        
-        bfs(root);
 
         return root;
     }
