@@ -24,9 +24,9 @@ public:
 
     int diameterOfBinaryTree(TreeNode* root) {
         int result = 0;
-        
+
         dfs(root, result);
 
         return result;
-    }
+    }   
 };
