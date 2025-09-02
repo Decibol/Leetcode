@@ -20,9 +20,7 @@ public:
         int rightHeight = getHeight(node->right);
         if (rightHeight == -1) return -1;
 
-        int difference = abs(leftHeight - rightHeight);
-
-        if (difference > 1) return -1;
+        if (abs(leftHeight - rightHeight) > 1) return -1;
 
         return 1 + max(leftHeight, rightHeight);
     }
