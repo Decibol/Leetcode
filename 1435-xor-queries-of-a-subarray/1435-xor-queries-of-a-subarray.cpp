@@ -17,8 +17,6 @@ public:
 
             result.push_back(xorResult);  
         }
-        
-        for (int num : prefixXOR) cout << num << ' ';
 
         return result;
     }
