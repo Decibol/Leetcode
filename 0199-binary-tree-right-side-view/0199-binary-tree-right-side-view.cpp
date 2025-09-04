@@ -11,18 +11,18 @@
  */
 class Solution {
 public:
-    void dfs(TreeNode *node, int level, vector<int>& result){
-        if (!node) return;
-
+    void dfs(TreeNode *root, int level, vector<int>& result){
         if (level == result.size()){
-            result.push_back(node->val);
+            result.push_back(root->val);
         }
 
-        if (node->right) dfs(node->right, level + 1, result);
-        if (node->left) dfs(node->left, level + 1, result);
+        if (root->right) dfs(root->right, level + 1, result);
+        if (root->left) dfs(root->left, level + 1, result);
     }
 
     vector<int> rightSideView(TreeNode* root) {
+        if (!root) return {};
+        
         vector<int> result;
         int level = 0;
 
