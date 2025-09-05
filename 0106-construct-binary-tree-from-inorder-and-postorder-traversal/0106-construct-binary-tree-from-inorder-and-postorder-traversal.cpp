@@ -13,13 +13,13 @@ class Solution {
     unordered_map<int, int> inorderMap;
 
     TreeNode *build(vector<int>& postorder, int& postorderIndex, int inorderLeft, int inorderRight){
-        if (inorderLeft > inorderRight || postorderIndex < 0) return nullptr;
+        if (inorderLeft > inorderRight) return nullptr;
 
         int rootValue = postorder[postorderIndex--];
         TreeNode *root = new TreeNode(rootValue);
 
         int inorderRootIndex = inorderMap[rootValue];
-        
+
         root->right = build(postorder, postorderIndex, inorderRootIndex + 1, inorderRight);
         root->left = build(postorder, postorderIndex, inorderLeft, inorderRootIndex - 1);
 
