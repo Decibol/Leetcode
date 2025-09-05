@@ -29,16 +29,12 @@ private:
 
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        int n = inorder.size();
-
-        for (int i = 0; i < n; ++i){
+        int preorderIndex = 0;
+        
+        for (int i = 0; i < inorder.size(); ++i){
             inorderMap[inorder[i]] = i;
         }
 
-        int preorderIndex = 0;
-        int inorderLeft = 0;
-        int inorderRight = n - 1;
-
-        return build(preorder, preorderIndex, inorderLeft, inorderRight);
+        return build(preorder, preorderIndex, 0, inorder.size() - 1);
     }
 };
