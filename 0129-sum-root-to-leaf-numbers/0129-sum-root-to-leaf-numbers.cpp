@@ -11,32 +11,27 @@
  */
 class Solution {
 public:
-    void inorder(TreeNode *node, string str, vector<string>& result){
+    void inorder(TreeNode *node, int currSum, int& result){
         if (!node){
             return;
         }
-        
-        str += to_string(node->val);
 
+        currSum = currSum * 10 + node->val;
+        
         if (!node->left && !node->right){
-            result.push_back(str);
+            result += currSum;
         }
 
-        inorder(node->left, str, result);
-        inorder(node->right, str, result);
+
+        inorder(node->left, currSum, result);
+        inorder(node->right, currSum, result);
     }
 
     int sumNumbers(TreeNode* root) {
-        vector<string> result;
-    
-        inorder(root, "", result);
+        int result = 0;
 
-        int sum = 0;
+        inorder(root, 0, result);
 
-        for (string s : result){
-            sum += stoi(s);
-        }
-
-        return sum;    
+        return result;  
     }
 };
