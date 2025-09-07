@@ -23,11 +23,10 @@ public:
     vector<int> rightSideView(TreeNode* root) {
         if (!root) return {};
         
-        vector<int> result;
-        int level = 0;
+        vector<int> rightSideView;
 
-        dfs(root, level, result);
+        dfs(root, 0, rightSideView);
 
-        return result;
+        return rightSideView;
     }
 };
