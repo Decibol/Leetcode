@@ -11,22 +11,22 @@
  */
 class Solution {
 public:
-    int dfs(TreeNode *node, int& result){
-        if (!node) return 0;
+    int dfs(TreeNode *root, int& diameter){
+        if (!root) return 0;
 
-        int left = dfs(node->left, result);
-        int right = dfs(node->right, result);
+        int left = dfs(root->left, diameter);
+        int right = dfs(root->right, diameter);
 
-        result = max(result, left + right);
+        diameter = max(diameter, left + right);
 
         return 1 + max(left, right);
     }
 
     int diameterOfBinaryTree(TreeNode* root) {
-        int result = 0;
+        int diameter = 0;
 
-        dfs(root, result);
-
-        return result;
-    }   
+        dfs(root, diameter);
+        
+        return diameter;    
+    }
 };
