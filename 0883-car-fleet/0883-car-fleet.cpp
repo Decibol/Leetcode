@@ -7,18 +7,18 @@ public:
             cars.push_back({position[i], speed[i]});
         }
 
-        sort(cars.begin(), cars.end(), greater<pair<int, int>>());
+        sort(cars.rbegin(), cars.rend());
 
         stack<double> st;
-
+        
         for (auto [pos, spd] : cars){
             double time = (double) (target - pos) / spd;
 
             if (st.empty() || time > st.top()){
                 st.push(time);
-            }
+            } 
         }
 
-        return st.size();
+        return st.size(); 
     }
 };
