@@ -1,8 +1,8 @@
 class Solution {
 public:
-    void backtrack(int row, int n, vector<bool>& cols, vector<bool>& posDiagonal, vector<bool>& negDiagonal, int& count){
+    void backtrack(int row, int n, vector<bool>& cols, vector<bool>& posDiagonal, vector<bool>& negDiagonal, int& result){
         if (row == n){
-            count++;
+            result++;
             return;
         }
 
@@ -13,8 +13,8 @@ public:
             posDiagonal[row + col] = true;
             negDiagonal[row - col + n - 1] = true;
 
-            backtrack(row + 1, n, cols, posDiagonal, negDiagonal, count);
-            
+            backtrack(row + 1, n, cols, posDiagonal, negDiagonal, result);
+
             cols[col] = false;
             posDiagonal[row + col] = false;
             negDiagonal[row - col + n - 1] = false;
@@ -25,10 +25,10 @@ public:
         vector<bool> cols(n, false);
         vector<bool> posDiagonal(2*n - 1, false);
         vector<bool> negDiagonal(2*n - 1, false);
-        int count = 0;
+        int result = 0;
 
-        backtrack(0, n, cols, posDiagonal, negDiagonal, count);
+        backtrack(0, n, cols, posDiagonal, negDiagonal, result);
 
-        return count;
+        return result;
     }
 };
