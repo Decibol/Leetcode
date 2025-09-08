@@ -326,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/Decibol/Leetcode/tree/master/0342-power-of-four) |
 | [0412-fizz-buzz](https://github.com/Decibol/Leetcode/tree/master/0412-fizz-buzz) |
 | [0755-reach-a-number](https://github.com/Decibol/Leetcode/tree/master/0755-reach-a-number) |
+| [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/Decibol/Leetcode/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1448-maximum-69-number](https://github.com/Decibol/Leetcode/tree/master/1448-maximum-69-number) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Decibol/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2481-strictly-palindromic-number](https://github.com/Decibol/Leetcode/tree/master/2481-strictly-palindromic-number) |
