@@ -8,7 +8,6 @@ public:
 
         for (int col = 0; col < n; ++col){
             if (cols[col] || posDiagonal[row + col] || negDiagonal[row - col + n - 1]) continue;
-
             cols[col] = true;
             posDiagonal[row + col] = true;
             negDiagonal[row - col + n - 1] = true;
@@ -32,6 +31,6 @@ public:
 
         backtrack(0, n, board, cols, posDiagonal, negDiagonal, result);
 
-        return result;
+        return result;    
     }
 };
