@@ -43,14 +43,6 @@ public:
     }
     
     void put(int key, int value) {
-        if (cache.size() == capacity){
-            Node *lru = tail->prev;
-            removeNode(lru);
-            cache.erase(lru->key);
-
-            delete lru;
-        }
-
         if (cache.find(key) != cache.end()){
             Node *node = cache[key];
             node->val = value;
@@ -58,9 +50,16 @@ public:
             insertAtHead(node);
         }
         else{
-            Node *node = new Node(key, value);
-            cache[key] = node;
-            insertAtHead(node);
+            if (cache.size() == capacity){
+                Node *lru = tail->prev;
+                cache.erase(lru->key);
+                removeNode(lru);
+                delete lru;
+            }
+
+            Node *newNode = new Node(key, value);
+            cache[key] = newNode;
+            insertAtHead(newNode);
         }
     }
 };
