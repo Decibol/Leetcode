@@ -19,8 +19,8 @@ private:
     void insertAtHead(Node *node){
         node->next = head->next;
         head->next = node;
-        node->next->prev = node;
         node->prev = head;
+        node->next->prev = node;
     }
 
 public:
@@ -43,6 +43,14 @@ public:
     }
     
     void put(int key, int value) {
+        if (cache.size() == capacity){
+            Node *lru = tail->prev;
+            removeNode(lru);
+            cache.erase(lru->key);
+
+            delete lru;
+        }
+
         if (cache.find(key) != cache.end()){
             Node *node = cache[key];
             node->val = value;
@@ -50,16 +58,16 @@ public:
             insertAtHead(node);
         }
         else{
-            if (cache.size() == capacity){
-                Node *lru = tail->prev;
-                cache.erase(lru->key);
-                removeNode(lru);
-                delete lru;
-            }
-
-            Node *newNode = new Node(key, value);
-            cache[key] = newNode;
-            insertAtHead(newNode);
+            Node *node = new Node(key, value);
+            cache[key] = node;
+            insertAtHead(node);
         }
     }
 };
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * LRUCache* obj = new LRUCache(capacity);
+ * int param_1 = obj->get(key);
+ * obj->put(key,value);
+ */
