@@ -15,7 +15,7 @@ public:
         if (!root) return true;
 
         if (root->val <= lower || root->val >= upper) return false;
-
+        
         if (!check(root->left, lower, root->val)) return false;
         if (!check(root->right, root->val, upper)) return false;
 
