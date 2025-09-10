@@ -5,9 +5,10 @@ public:
 
         dfs(root->left, k, count, result);
 
-        if (count > k) return;
-
         ++count;
+        
+        if (count > k) return;
+        
         if (count == k) {
             result = root->val;
             return;
