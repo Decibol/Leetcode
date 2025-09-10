@@ -1,7 +1,7 @@
 class Solution {
 public:
     void dfs(TreeNode *root, int& k, int& count, int& result) {
-        if (!root || count >= k) return;
+        if (!root) return;
 
         dfs(root->left, k, count, result);
 
