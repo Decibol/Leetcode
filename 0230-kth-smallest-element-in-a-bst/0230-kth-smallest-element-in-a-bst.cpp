@@ -1,14 +1,12 @@
 class Solution {
 public:
     void dfs(TreeNode *root, int& k, int& count, int& result) {
-        if (!root) return;
+        if (!root || count >= k) return;
 
         dfs(root->left, k, count, result);
 
         ++count;
-        
-        if (count > k) return;
-        
+
         if (count == k) {
             result = root->val;
             return;
