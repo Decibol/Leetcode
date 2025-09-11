@@ -11,26 +11,22 @@
  */
 class Solution {
 public:
-    void preorder(TreeNode *node, vector<TreeNode*>& result){
-        if (!node) return;
+    TreeNode* dfs(TreeNode *root){
+        if (!root) return nullptr;
 
-        result.push_back(node);
-        preorder(node->left, result);
-        preorder(node->right, result);    
+        TreeNode *leftTail = dfs(root->left);
+        TreeNode *rightTail = dfs(root->right);
+
+        if (leftTail){
+            leftTail->right = root->right;
+            root->right = root->left;
+            root->left = nullptr;
+        }
+
+        return rightTail ? rightTail : (leftTail ? leftTail : root);
     }
 
     void flatten(TreeNode* root) {
-        if (!root) return;
-        vector<TreeNode*> nodes;
-
-        preorder(root, nodes);
-
-        for (int i = 0; i < nodes.size() - 1; ++i){
-            nodes[i]->left = nullptr;
-            nodes[i]->right = nodes[i + 1];
-        }
-
-        nodes.back()->left = nullptr;
-        nodes.back()->right = nullptr;
+        dfs(root);    
     }
 };
