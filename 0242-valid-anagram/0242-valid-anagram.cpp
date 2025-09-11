@@ -1,15 +1,13 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        if (s.size() != t.size()) return false;
+        vector<int> result(26, 0);
 
-        vector<int> freq(26, 0);
+        for (char c : t) result[c - 'a']++;
+        for (char c : s) result[c - 'a']--;
 
-        for (char c : s) freq[c - 'a']++;
-        for (char c : t) freq[c - 'a']--;
-
-        for (int count : freq){
-            if (count != 0) return false;
+        for (int num : result){
+            if (num != 0) return false;
         }
 
         return true;
