@@ -11,31 +11,18 @@
  */
 class Solution {
 public:
-    void dfs(TreeNode *root, vector<int>& result){
-        if (!root) return;
-
-        result.push_back(root->val);
-        dfs(root->left, result);
-        dfs(root->right, result);
-    }
+    unordered_set<int> numSet;
 
     bool findTarget(TreeNode* root, int k) {
-        vector<int> result;
-        dfs(root, result);
+        if (!root) return false;
+        int complement = k - root->val;
 
-        unordered_map<int, int> pair;
-
-        for (int i = 0; i < result.size(); ++i){
-            int complement = k - result[i];
-
-            if (pair.find(complement) != pair.end()){
-                return true;
-            }
-
-            pair[result[i]] = i;
+        if (numSet.count(complement)){
+            return true;
         }
 
+        numSet.insert(root->val);
 
-        return false;
+        return findTarget(root->left, k) || findTarget(root->right, k);
     }
 };
