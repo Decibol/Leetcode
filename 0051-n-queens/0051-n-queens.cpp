@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void backtrack(int row, int n, vector<string>& board, vector<bool>& cols, vector<bool>& posDiagonal, vector<bool>& negDiagonal, vector<vector<string>>& result){
+    void backtrack(int row, int& n, vector<string>& board, vector<bool>& cols, vector<bool>& posDiagonal, vector<bool>& negDiagonal, vector<vector<string>>& result){
         if (row == n){
             result.push_back(board);
             return;
@@ -8,6 +8,7 @@ public:
 
         for (int col = 0; col < n; ++col){
             if (cols[col] || posDiagonal[row + col] || negDiagonal[row - col + n - 1]) continue;
+
             cols[col] = true;
             posDiagonal[row + col] = true;
             negDiagonal[row - col + n - 1] = true;
@@ -31,6 +32,6 @@ public:
 
         backtrack(0, n, board, cols, posDiagonal, negDiagonal, result);
 
-        return result;    
+        return result;
     }
 };
