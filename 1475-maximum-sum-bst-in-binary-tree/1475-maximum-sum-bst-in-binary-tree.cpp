@@ -9,43 +9,46 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+struct Info{
+    bool isBST;
+    int minVal;
+    int maxVal;
+    int sum;
+
+    Info() : isBST(true), minVal(INT_MAX), maxVal(INT_MIN), sum(0) {}
+};
+
 class Solution {
 public:
-    bool checkBST(TreeNode *root) {
-        if (!root->left && !root->right) return true;
-
-        if (!root->left){
-            if (root->val < root->right->val) return true;
+    Info* dfs(TreeNode *root, int& result){
+        if (!root){
+            Info *current = new Info();
+            return current;
         }
 
-        if (!root->right){
-            if (root->val > root->left->val) return true;
+        Info *left = dfs(root->left, result);
+        Info *right = dfs(root->right, result);
+
+        Info *current = new Info();
+
+        current->minVal = min(root->val, left->minVal);
+        current->maxVal = max(root->val, right->maxVal);
+        current->sum = left->sum + right->sum + root->val;
+        current->isBST = left->isBST && right->isBST && root->val > left->maxVal && root->val < right->minVal;
+
+        if (current->isBST){
+            result = max(result, current->sum);
         }
 
-        if (root->val < root->right->val && root->val > root->left->val) return true;
-
-        return checkBST(root->left) && checkBST(root->right);
-    }
-
-    int getSum(TreeNode *root, int sum, int& maxSum){
-        if (!checkBST(root)) return 0;
-
-        int left = getSum(root->left, sum, maxSum);
-        int right = getSum(root->right, sum, maxSum);
-
-        sum += left + right + root->val;
-
-        maxSum = max(maxSum, sum);
-
-        return sum;
-    }
+        return current; 
+    } 
 
     int maxSumBST(TreeNode* root) {
-        int maxSum = 0;
-        int sum = 0;
+        int result = 0;
 
-        getSum(root, sum, maxSum);
+        dfs(root, result);
 
-        return maxSum;
+        return result;
     }
 };
