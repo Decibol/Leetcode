@@ -11,13 +11,13 @@
  */
 class Solution {
 public:
-    bool check(TreeNode *root, long long lower, long long upper){
+    bool check(TreeNode *root, long long minVal, long long maxVal){
         if (!root) return true;
 
-        if (root->val <= lower || root->val >= upper) return false;
-        
-        if (!check(root->left, lower, root->val)) return false;
-        if (!check(root->right, root->val, upper)) return false;
+        if (root->val <= minVal || root->val >= maxVal) return false;
+
+        if (!check(root->left, minVal, root->val)) return false;
+        if (!check(root->right, root->val, maxVal)) return false;
 
         return true;
     }
