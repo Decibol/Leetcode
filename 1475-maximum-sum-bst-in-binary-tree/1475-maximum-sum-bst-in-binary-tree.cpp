@@ -12,11 +12,11 @@
 
 struct Info{
     bool isBST;
-    int minVal;
-    int maxVal;
+    int minRight;
+    int maxLeft;
     int sum;
 
-    Info() : isBST(true), minVal(INT_MAX), maxVal(INT_MIN), sum(0) {}
+    Info() : isBST(true), minRight(INT_MAX), maxLeft(INT_MIN), sum(0) {}
 };
 
 class Solution {
@@ -32,10 +32,10 @@ public:
 
         Info *current = new Info();
 
-        current->minVal = min(root->val, left->minVal);
-        current->maxVal = max(root->val, right->maxVal);
+        current->minRight = min(root->val, left->minRight);
+        current->maxLeft = max(root->val, right->maxLeft);
         current->sum = left->sum + right->sum + root->val;
-        current->isBST = left->isBST && right->isBST && root->val > left->maxVal && root->val < right->minVal;
+        current->isBST = left->isBST && right->isBST && root->val > left->maxLeft && root->val < right->minRight;
 
         if (current->isBST){
             result = max(result, current->sum);
