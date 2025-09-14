@@ -17,12 +17,9 @@ public:
         if (!root) return false;
         int complement = k - root->val;
 
-        if (numSet.count(complement)){
-            return true;
-        }
+        if (numSet.count(complement)) return true;
 
         numSet.insert(root->val);
-
         return findTarget(root->left, k) || findTarget(root->right, k);
     }
 };
