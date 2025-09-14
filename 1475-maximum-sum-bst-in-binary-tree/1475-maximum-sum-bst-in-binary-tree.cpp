@@ -11,8 +11,8 @@
  */
 struct Info{
     bool isBST;
-    int minVal; // from right subtree
-    int maxVal; // from left subtree
+    int minVal; // from right subtree, minRight
+    int maxVal; // from left subtree, maxLeft
     int sum;
 
     Info() : isBST(true), minVal(INT_MAX), maxVal(INT_MIN), sum(0) {}
