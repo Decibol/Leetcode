@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void backtrack(int row, int n, vector<bool>& cols, vector<bool>& posDiagonal, vector<bool>& negDiagonal, int& result){
+    void backtrack(int row, int& n, vector<bool>& cols, vector<bool>& posDiagonal, vector<bool>& negDiagonal, int& result){
         if (row == n){
             result++;
             return;
@@ -26,9 +26,9 @@ public:
         vector<bool> posDiagonal(2*n - 1, false);
         vector<bool> negDiagonal(2*n - 1, false);
         int result = 0;
-
+        
         backtrack(0, n, cols, posDiagonal, negDiagonal, result);
 
-        return result;
+        return result;    
     }
 };
