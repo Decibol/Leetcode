@@ -9,40 +9,38 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-
 struct Info{
     bool isBST;
-    int minRight;
-    int maxLeft;
+    int minVal; // from right subtree
+    int maxVal; // from left subtree
     int sum;
 
-    Info() : isBST(true), minRight(INT_MAX), maxLeft(INT_MIN), sum(0) {}
+    Info() : isBST(true), minVal(INT_MAX), maxVal(INT_MIN), sum(0) {}
 };
 
 class Solution {
 public:
-    Info* dfs(TreeNode *root, int& result){
+    Info dfs(TreeNode* root, int& result){
         if (!root){
-            Info *current = new Info();
-            return current;
+            return Info();
         }
 
-        Info *left = dfs(root->left, result);
-        Info *right = dfs(root->right, result);
+        Info left = dfs(root->left, result);
+        Info right = dfs(root->right, result);
 
-        Info *current = new Info();
+        Info current;
 
-        current->minRight = min(root->val, left->minRight);
-        current->maxLeft = max(root->val, right->maxLeft);
-        current->sum = left->sum + right->sum + root->val;
-        current->isBST = left->isBST && right->isBST && root->val > left->maxLeft && root->val < right->minRight;
+        current.maxVal = max(right.maxVal, root->val);
+        current.minVal = min(left.minVal, root->val);
+        current.sum = left.sum + right.sum + root->val;
+        current.isBST = left.isBST && right.isBST && root->val > left.maxVal && root->val < right.minVal;
 
-        if (current->isBST){
-            result = max(result, current->sum);
+        if (current.isBST){
+            result = max(result, current.sum);
         }
 
-        return current; 
-    } 
+        return current;        
+    }
 
     int maxSumBST(TreeNode* root) {
         int result = 0;
