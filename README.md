@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1435-xor-queries-of-a-subarray](https://github.com/Decibol/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Decibol/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1657-find-the-winner-of-an-array-game](https://github.com/Decibol/Leetcode/tree/master/1657-find-the-winner-of-an-array-game) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/Decibol/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Decibol/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2486-most-frequent-even-element](https://github.com/Decibol/Leetcode/tree/master/2486-most-frequent-even-element) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Decibol/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -302,6 +303,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0937-online-stock-span](https://github.com/Decibol/Leetcode/tree/master/0937-online-stock-span) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Decibol/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Decibol/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/Decibol/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 ## Sliding Window
 |  |
 | ------- |
@@ -377,6 +379,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0755-reach-a-number](https://github.com/Decibol/Leetcode/tree/master/0755-reach-a-number) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/Decibol/Leetcode/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1448-maximum-69-number](https://github.com/Decibol/Leetcode/tree/master/1448-maximum-69-number) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/Decibol/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Decibol/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2481-strictly-palindromic-number](https://github.com/Decibol/Leetcode/tree/master/2481-strictly-palindromic-number) |
 | [3227-find-missing-and-repeated-values](https://github.com/Decibol/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
@@ -612,4 +615,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3462-vowels-game-in-a-string](https://github.com/Decibol/Leetcode/tree/master/3462-vowels-game-in-a-string) |
+## Number Theory
+|  |
+| ------- |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/Decibol/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 <!---LeetCode Topics End-->
