@@ -1,26 +1,23 @@
 class Solution {
 public:
     int maximumBags(vector<int>& capacity, vector<int>& rocks, int additionalRocks) {
-        vector<int> remainingCapacity(capacity.size(), 0);
-
         for (int i = 0; i < capacity.size(); ++i){
-            remainingCapacity[i] = capacity[i] - rocks[i];
+            capacity[i] = capacity[i] - rocks[i];
         }
 
-        sort(remainingCapacity.begin(), remainingCapacity.end());
+        sort(capacity.begin(), capacity.end());
 
         int count = 0;
-
         int i = 0;
 
-        while (i < remainingCapacity.size() && additionalRocks > 0){
-            if (remainingCapacity[i] == 0){
+        while (i < capacity.size() && additionalRocks > 0){
+            if (capacity[i] == 0){
                 ++count;
                 ++i;
             }
             else {
-                if (additionalRocks - remainingCapacity[i] >= 0){
-                    additionalRocks -= remainingCapacity[i];
+                if (additionalRocks - capacity[i] >= 0){
+                    additionalRocks -= capacity[i];
                     ++count;
                     ++i;
                 }
