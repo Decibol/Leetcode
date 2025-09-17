@@ -7,7 +7,7 @@ public:
 
         while (right < nums.size() - 1){
             int n = right;
-            
+
             for (int i = left; i <= n; ++i){
                 right = max(right, i + nums[i]);
             }
