@@ -11,16 +11,16 @@ public:
 
         if (totalCost > totalGas) return -1;
 
-        int startIdx = 0;
         int tank = 0;
+        int startIdx = 0;
 
-        for (int i = 0; i < gas.size(); ++i){
+        for (int i = 1; i < gas.size(); ++i){
             tank += gas[i];
 
             if (tank - cost[i] < 0){
-                startIdx = i + 1;
                 tank = 0;
-            }   
+                startIdx = i + 1;
+            }
             else {
                 tank -= cost[i];
             }
