@@ -4,9 +4,7 @@ public:
         if (hand.size() % groupSize != 0) return false;
         map<int, int> freq;
 
-        for (int x : hand){
-            freq[x]++;
-        }
+        for (int x : hand) freq[x]++;
 
         while (!freq.empty()){
             int start = freq.begin()->first;
