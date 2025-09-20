@@ -12,8 +12,8 @@ public:
                 right = max(right, i + nums[i]);
             }
 
-            left = n;
             count++;
+            left = n;
         }
 
         return count;
