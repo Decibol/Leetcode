@@ -1,16 +1,14 @@
 class Solution {
 public:
-    bool mergeTriplets(vector<vector<int>>& triplets, vector<int>& target) {
-        bool found_x = false, found_y = false, found_z = false;
-
-        for (auto triplet : triplets){
-            if (triplet[0] <= target[0] && triplet[1] <= target[1] && triplet[2] <= target[2]){
-                if (triplet[0] == target[0]) found_x = true;
-                if (triplet[1] == target[1]) found_y = true;
-                if (triplet[2] == target[2]) found_z = true;
+    bool mergeTriplets(const vector<vector<int>>& triplets, const vector<int>& target) {
+        vector<int> cur = {0,0,0};
+        for (const auto &t : triplets) {
+            if (t[0] <= target[0] && t[1] <= target[1] && t[2] <= target[2]) {
+                cur[0] = max(cur[0], t[0]);
+                cur[1] = max(cur[1], t[1]);
+                cur[2] = max(cur[2], t[2]);
             }
         }
-
-        return found_x && found_y && found_z;
+        return cur == target;
     }
 };
