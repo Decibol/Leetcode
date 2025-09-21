@@ -9,6 +9,7 @@ public:
                 cur[2] = max(cur[2], t[2]);
             }
         }
+        
         return cur == target;
     }
 };
