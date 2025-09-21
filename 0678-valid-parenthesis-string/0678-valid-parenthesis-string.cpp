@@ -6,20 +6,20 @@ public:
 
         for (char c : s){
             if (c == '('){
-                ++leftMin;
-                ++leftMax;
+                leftMin++;
+                leftMax++;
             }
             else if (c == ')'){
-                --leftMin;
-                --leftMax;
+                leftMin--;
+                leftMax--;
             }
             else {
-                --leftMin;
-                ++leftMax; 
+                leftMin--;
+                leftMax++;
             }
 
             if (leftMin < 0) leftMin = 0;
-            if (leftMax < 0) return false;
+            if (leftMax < 0) leftMax = 0;
         }
 
         return leftMin == 0;
