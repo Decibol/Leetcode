@@ -13,15 +13,14 @@ public:
             if (capacity[i] == 0){
                 ++count;
             } 
-            else {
-                if (additionalRocks - capacity[i] >= 0){
-                    additionalRocks -= capacity[i];
-                    ++count;
-                }
-                else {
-                    break;
-                }
+            else if (additionalRocks - capacity[i] >= 0){
+                additionalRocks -= capacity[i];
+                ++count;
             }
+            else {
+                break;
+            }
+            
             ++i;
         }
 
