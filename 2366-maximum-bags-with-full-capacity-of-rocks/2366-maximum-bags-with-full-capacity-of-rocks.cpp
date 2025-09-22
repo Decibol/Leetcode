@@ -7,24 +7,22 @@ public:
 
         sort(capacity.begin(), capacity.end());
 
-        int count = 0;
-        int i = 0;
+        int i = 0, count = 0;
 
         while (i < capacity.size() && additionalRocks > 0){
             if (capacity[i] == 0){
                 ++count;
-                ++i;
-            }
+            } 
             else {
                 if (additionalRocks - capacity[i] >= 0){
                     additionalRocks -= capacity[i];
                     ++count;
-                    ++i;
                 }
                 else {
                     break;
                 }
             }
+            ++i;
         }
 
         return count;
