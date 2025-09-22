@@ -18,7 +18,9 @@ public:
 
 class Solution {
 public:
-    void bfs(Node* root){
+    Node* connect(Node* root) {
+        if (!root) return nullptr;
+
         queue<Node*> q;
         q.push(root);
 
@@ -26,7 +28,7 @@ public:
             int size = q.size();
 
             for (int i = 0; i < size; ++i){
-                Node* node = q.front();
+                Node *node = q.front();
                 q.pop();
 
                 if (i != size - 1){
@@ -37,12 +39,6 @@ public:
                 if (node->right) q.push(node->right);
             }
         }
-    }
-
-    Node* connect(Node* root) {
-        if (!root) return nullptr;
-
-        bfs(root);
 
         return root;
     }
