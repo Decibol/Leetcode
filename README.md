@@ -218,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/Decibol/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0645-set-mismatch](https://github.com/Decibol/Leetcode/tree/master/0645-set-mismatch) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Decibol/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0768-partition-labels](https://github.com/Decibol/Leetcode/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/Decibol/Leetcode/tree/master/0876-hand-of-straights) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Decibol/Leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
@@ -293,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0557-reverse-words-in-a-string-iii](https://github.com/Decibol/Leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0678-valid-parenthesis-string](https://github.com/Decibol/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0686-repeated-string-match](https://github.com/Decibol/Leetcode/tree/master/0686-repeated-string-match) |
+| [0768-partition-labels](https://github.com/Decibol/Leetcode/tree/master/0768-partition-labels) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Decibol/Leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Decibol/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/Decibol/Leetcode/tree/master/2346-largest-3-same-digit-number-in-string) |
@@ -358,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0557-reverse-words-in-a-string-iii](https://github.com/Decibol/Leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0611-valid-triangle-number](https://github.com/Decibol/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Decibol/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0768-partition-labels](https://github.com/Decibol/Leetcode/tree/master/0768-partition-labels) |
 | [0908-middle-of-the-linked-list](https://github.com/Decibol/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2481-strictly-palindromic-number](https://github.com/Decibol/Leetcode/tree/master/2481-strictly-palindromic-number) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Decibol/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -529,6 +532,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Decibol/Leetcode/tree/master/0455-assign-cookies) |
 | [0611-valid-triangle-number](https://github.com/Decibol/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0678-valid-parenthesis-string](https://github.com/Decibol/Leetcode/tree/master/0678-valid-parenthesis-string) |
+| [0768-partition-labels](https://github.com/Decibol/Leetcode/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/Decibol/Leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/Decibol/Leetcode/tree/master/0890-lemonade-change) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Decibol/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
