@@ -1,27 +1,14 @@
 class Solution {
 public:
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
-        priority_queue<pair<int, vector<int>>, vector<pair<int, vector<int>>>, greater<pair<int, vector<int>>>> minHeap;
+        nth_element(points.begin(), points.begin() + k, points.end(), [&](const vector<int>& a, const vector<int>& b){
+            int distance_a = a[0]*a[0] + a[1]*a[1];
+            int distance_b = b[0]*b[0] + b[1]*b[1];
 
-        for (auto point : points){
-            int x = point[0];
-            int y = point[1];
+            return distance_a < distance_b;
+        });
 
-            int distance = x*x + y*y;
-
-            minHeap.push({distance, point});
-        }
-
-        vector<vector<int>> result;
-        int count = 0;
-
-        while (k > 0){
-            auto [distance, point] = minHeap.top();
-            minHeap.pop();
-
-            result.push_back(point);
-            --k;
-        }
+        vector<vector<int>> result(points.begin(), points.begin() + k);
 
         return result;
     }
