@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/Decibol/Leetcode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/Decibol/Leetcode/tree/master/0883-car-fleet) |
 | [0890-lemonade-change](https://github.com/Decibol/Leetcode/tree/master/0890-lemonade-change) |
+| [1014-k-closest-points-to-origin](https://github.com/Decibol/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/Decibol/Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/Decibol/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Decibol/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Decibol/Leetcode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/Decibol/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Decibol/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [1014-k-closest-points-to-origin](https://github.com/Decibol/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Sorting
 |  |
 | ------- |
@@ -257,6 +259,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0645-set-mismatch](https://github.com/Decibol/Leetcode/tree/master/0645-set-mismatch) |
 | [0876-hand-of-straights](https://github.com/Decibol/Leetcode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/Decibol/Leetcode/tree/master/0883-car-fleet) |
+| [1014-k-closest-points-to-origin](https://github.com/Decibol/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Decibol/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1829-maximum-units-on-a-truck](https://github.com/Decibol/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
@@ -403,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/Decibol/Leetcode/tree/master/0342-power-of-four) |
 | [0412-fizz-buzz](https://github.com/Decibol/Leetcode/tree/master/0412-fizz-buzz) |
 | [0755-reach-a-number](https://github.com/Decibol/Leetcode/tree/master/0755-reach-a-number) |
+| [1014-k-closest-points-to-origin](https://github.com/Decibol/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/Decibol/Leetcode/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1448-maximum-69-number](https://github.com/Decibol/Leetcode/tree/master/1448-maximum-69-number) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/Decibol/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
@@ -519,6 +523,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Decibol/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/Decibol/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [1014-k-closest-points-to-origin](https://github.com/Decibol/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/Decibol/Leetcode/tree/master/1127-last-stone-weight) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Decibol/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 ## Monotonic Queue
@@ -661,4 +666,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Decibol/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [1014-k-closest-points-to-origin](https://github.com/Decibol/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+## Geometry
+|  |
+| ------- |
+| [1014-k-closest-points-to-origin](https://github.com/Decibol/Leetcode/tree/master/1014-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
