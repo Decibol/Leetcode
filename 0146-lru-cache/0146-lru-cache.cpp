@@ -24,8 +24,7 @@ private:
     }
 
 public:
-    LRUCache(int capacity) {
-        this->capacity = capacity;
+    LRUCache(int capacity) : capacity(capacity) {
         head = new Node(0, 0);
         tail = new Node(0, 0);
         head->next = tail;
