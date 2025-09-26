@@ -25,20 +25,17 @@ private:
 
 public:
     Node* dfs(Node* node){
-        vector<Node*> neighborNodes;
         Node *copy = new Node(node->val);
         clones[node] = copy;
 
         for (auto neighbor : node->neighbors){
             if (clones.find(neighbor) != clones.end()){
-                neighborNodes.push_back(clones[neighbor]);
+                copy->neighbors.push_back(clones[neighbor]);
             }
             else {
-                neighborNodes.push_back(dfs(neighbor));
+                copy->neighbors.push_back(dfs(neighbor));
             }
         }
-
-        copy->neighbors = neighborNodes;
 
         return copy;
     }
