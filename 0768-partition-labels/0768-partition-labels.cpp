@@ -8,17 +8,17 @@ public:
         }
 
         int start = 0, end = 0;
-        vector<int> result;
+        vector<int> partitions;
 
         for (int i = 0; i < s.size(); ++i){
             end = max(end, lastIndex[s[i]]);
 
             if (i == end){
-                result.push_back(end - start + 1);
+                partitions.push_back(end - start + 1);
                 start = i + 1;
             }
         }
 
-        return result;
+        return partitions;
     }
 };
