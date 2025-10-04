@@ -9,7 +9,7 @@ public:
             auto [r, c] = q.front();
             q.pop();
 
-            for (auto [dr, dc] : directions){
+            for (auto const& [dr, dc] : directions){
                 int nr = r + dr;
                 int nc = c + dc;
 
@@ -26,7 +26,7 @@ public:
         int m = grid.size();
         int n = grid[0].size();
         vector<vector<bool>> visited(m, vector<bool>(n, false));
-        vector<pair<int, int>> directions = {{0, 1}, {0, -1}, {1, 0}, {1, 0}};
+        vector<pair<int, int>> directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
         int count = 0;
 
         for (int i = 0; i < m; ++i){
