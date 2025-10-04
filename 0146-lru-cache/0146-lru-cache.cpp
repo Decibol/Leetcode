@@ -1,32 +1,33 @@
 class LRUCache {
 private:
-    struct Node{
+    struct ListNode{
         int key, val;
-        Node *prev, *next;
+        ListNode *prev;
+        ListNode *next;
 
-        Node(int k, int v) : key(k), val(v), prev(nullptr), next(nullptr) {}
+        ListNode(int k, int v) : key(k), val(v), prev(nullptr), next(nullptr) {}
     };
 
+    ListNode *head, *tail;
+    unordered_map<int, ListNode*> cache;
     int capacity;
-    unordered_map<int, Node*> cache;
-    Node *head, *tail;
 
-    void removeNode(Node *node){
+    void removeNode(ListNode* node){
         node->prev->next = node->next;
         node->next->prev = node->prev;
     }
 
-    void insertAtHead(Node *node){
+    void insertAtHead(ListNode* node){
         node->next = head->next;
-        head->next = node;
         node->prev = head;
+        head->next = node;
         node->next->prev = node;
     }
-
 public:
     LRUCache(int capacity) : capacity(capacity) {
-        head = new Node(0, 0);
-        tail = new Node(0, 0);
+        head = new ListNode(0, 0);
+        tail = new ListNode(0, 0);
+
         head->next = tail;
         tail->prev = head;
     }
@@ -34,7 +35,7 @@ public:
     int get(int key) {
         if (cache.find(key) == cache.end()) return -1;
 
-        Node *node = cache[key];
+        ListNode *node = cache[key];
         removeNode(node);
         insertAtHead(node);
 
@@ -43,20 +44,20 @@ public:
     
     void put(int key, int value) {
         if (cache.find(key) != cache.end()){
-            Node *node = cache[key];
+            ListNode *node = cache[key];
             node->val = value;
             removeNode(node);
             insertAtHead(node);
         }
-        else{
+        else {
             if (cache.size() == capacity){
-                Node *lru = tail->prev;
+                ListNode *lru = tail->prev;
                 cache.erase(lru->key);
                 removeNode(lru);
                 delete lru;
             }
 
-            Node *newNode = new Node(key, value);
+            ListNode *newNode = new ListNode(key, value);
             cache[key] = newNode;
             insertAtHead(newNode);
         }
