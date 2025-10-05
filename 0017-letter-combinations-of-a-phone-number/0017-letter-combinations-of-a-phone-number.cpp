@@ -6,16 +6,16 @@ public:
             return;
         }
 
-        string letters = charMap[digits[start]];
+        string s = charMap[digits[start]];
 
-        for (char c : letters){
+        for (char c : s){
             backtrack(start + 1, digits, charMap, current + c, result);
         }
     }
 
     vector<string> letterCombinations(string digits) {
         if (digits.empty()) return {};
-
+        
         unordered_map<char, string> charMap = {
             {'2', "abc"},
             {'3', "def"},
@@ -28,10 +28,9 @@ public:
         };
 
         vector<string> result;
-        string current = "";
 
-        backtrack(0, digits, charMap, current, result);
+        backtrack(0, digits, charMap, "", result);
 
-        return result;
+        return result;    
     }
 };
