@@ -12,7 +12,7 @@
 class Solution {
 public:
     void dfs(TreeNode *node, int level, int& result){
-        result = max(result, level + 1);
+        result = max(result, level);
 
         if (node->left) dfs(node->left, level + 1, result);
         if (node->right) dfs(node->right, level + 1, result);
@@ -20,11 +20,9 @@ public:
 
     int maxDepth(TreeNode* root) {
         if (!root) return 0;
-        
-        int level = 0;
         int result = 0;
 
-        dfs(root, level, result);
+        dfs(root, 1, result);
 
         return result;
     }
