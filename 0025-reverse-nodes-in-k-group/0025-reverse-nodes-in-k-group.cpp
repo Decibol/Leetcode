@@ -13,19 +13,19 @@ public:
     ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode *dummy = new ListNode(0);
         dummy->next = head;
-        ListNode *current = head;
         ListNode *prevGroupEnd = dummy;
+        ListNode *current = head;
 
         while (true){
             ListNode *node = current;
-            
+
             for (int i = 0; i < k; ++i){
                 if (!node) return dummy->next;
                 node = node->next;
             }
 
-            ListNode *prev = nullptr;
             ListNode *tail = current;
+            ListNode *prev = nullptr;
 
             for (int i = 0; i < k; ++i){
                 ListNode *temp = current->next;
