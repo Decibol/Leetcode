@@ -241,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/Decibol/Leetcode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/Decibol/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Decibol/Leetcode/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/Decibol/Leetcode/tree/master/0202-happy-number) |
 | [0229-majority-element-ii](https://github.com/Decibol/Leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/Decibol/Leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/Decibol/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -396,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Decibol/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0165-compare-version-numbers](https://github.com/Decibol/Leetcode/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Decibol/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0202-happy-number](https://github.com/Decibol/Leetcode/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/Decibol/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/Decibol/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/Decibol/Leetcode/tree/master/0295-find-median-from-data-stream) |
@@ -440,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0060-permutation-sequence](https://github.com/Decibol/Leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/Decibol/Leetcode/tree/master/0062-unique-paths) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Decibol/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0202-happy-number](https://github.com/Decibol/Leetcode/tree/master/0202-happy-number) |
 | [0326-power-of-three](https://github.com/Decibol/Leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Decibol/Leetcode/tree/master/0342-power-of-four) |
 | [0412-fizz-buzz](https://github.com/Decibol/Leetcode/tree/master/0412-fizz-buzz) |
