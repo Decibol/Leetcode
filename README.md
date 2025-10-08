@@ -198,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/Decibol/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Decibol/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2366-maximum-bags-with-full-capacity-of-rocks](https://github.com/Decibol/Leetcode/tree/master/2366-maximum-bags-with-full-capacity-of-rocks) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/Decibol/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2486-most-frequent-even-element](https://github.com/Decibol/Leetcode/tree/master/2486-most-frequent-even-element) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Decibol/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2551-apply-operations-to-an-array](https://github.com/Decibol/Leetcode/tree/master/2551-apply-operations-to-an-array) |
@@ -299,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Decibol/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1829-maximum-units-on-a-truck](https://github.com/Decibol/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [2366-maximum-bags-with-full-capacity-of-rocks](https://github.com/Decibol/Leetcode/tree/master/2366-maximum-bags-with-full-capacity-of-rocks) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/Decibol/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Decibol/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Counting
@@ -409,6 +411,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Decibol/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0768-partition-labels](https://github.com/Decibol/Leetcode/tree/master/0768-partition-labels) |
 | [0908-middle-of-the-linked-list](https://github.com/Decibol/Leetcode/tree/master/0908-middle-of-the-linked-list) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/Decibol/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2481-strictly-palindromic-number](https://github.com/Decibol/Leetcode/tree/master/2481-strictly-palindromic-number) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Decibol/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2551-apply-operations-to-an-array](https://github.com/Decibol/Leetcode/tree/master/2551-apply-operations-to-an-array) |
@@ -472,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/Decibol/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0755-reach-a-number](https://github.com/Decibol/Leetcode/tree/master/0755-reach-a-number) |
 | [1046-max-consecutive-ones-iii](https://github.com/Decibol/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/Decibol/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Bit Manipulation
 |  |
 | ------- |
