@@ -1,23 +1,22 @@
 class Solution {
 public:
-    void bfs(int row, int col, vector<vector<char>>& grid, vector<pair<int, int>>& directions,  vector<vector<bool>>& visited){
+    void bfs(int& row, int& col, vector<vector<char>>& grid, vector<vector<bool>>& visited, vector<pair<int, int>>& directions){
         queue<pair<int, int>> q;
         q.push({row, col});
-        visited[row][col] = true;
 
         while (!q.empty()){
             auto [r, c] = q.front();
             q.pop();
-
+            
             for (auto const& [dr, dc] : directions){
                 int nr = r + dr;
                 int nc = c + dc;
 
-                if (nr >= 0 && nr < grid.size() && nc >= 0 && nc < grid[0].size() && grid[nr][nc] == '1' && !visited[nr][nc]){
-                    visited[nr][nc] = true;
+                if (nr < 0 || nr == grid.size() || nc < 0 || nc == grid[0].size() || visited[nr][nc] || grid[nr][nc] != '1') continue;
 
-                    q.push({nr, nc});
-                }
+                visited[nr][nc] = true;
+
+                q.push({nr, nc});
             }
         }
     }
@@ -31,8 +30,8 @@ public:
 
         for (int i = 0; i < m; ++i){
             for (int j = 0; j < n; ++j){
-                if (grid[i][j] == '1' && !visited[i][j]){
-                    bfs(i, j, grid, directions, visited);
+                if (!visited[i][j] && grid[i][j] == '1'){
+                    bfs(i, j, grid, visited, directions);
                     ++count;
                 }
             }
