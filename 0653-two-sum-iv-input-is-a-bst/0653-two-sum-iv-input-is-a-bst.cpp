@@ -11,15 +11,16 @@
  */
 class Solution {
 public:
-    unordered_set<int> numSet;
+    unordered_set<int> pair;
 
     bool findTarget(TreeNode* root, int k) {
         if (!root) return false;
         int complement = k - root->val;
 
-        if (numSet.count(complement)) return true;
+        if (pair.count(complement)) return true;
 
-        numSet.insert(root->val);
+        pair.insert(root->val);
+        
         return findTarget(root->left, k) || findTarget(root->right, k);
     }
 };
