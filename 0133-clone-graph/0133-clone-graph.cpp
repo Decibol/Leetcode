@@ -20,12 +20,11 @@ public:
 */
 
 class Solution {
-private:
+public:
     unordered_map<Node*, Node*> clones;
 
-public:
-    Node *dfs(Node *node){
-        Node* copy =  new Node(node->val);
+    Node* dfs(Node *node){
+        Node *copy = new Node(node->val);
         clones[node] = copy;
 
         for (auto neighbor : node->neighbors){
@@ -43,6 +42,6 @@ public:
     Node* cloneGraph(Node* node) {
         if (!node) return nullptr;
 
-        return dfs(node);
+        return dfs(node);    
     }
 };
