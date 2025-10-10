@@ -6,15 +6,8 @@ public:
 
         for (auto const& pair : prerequisites){
             adj[pair[1]].push_back(pair[0]);
+            indegree[pair[0]]++;
         }
-
-        for (int i = 0; i < adj.size(); ++i){
-            for (int j = 0; j < adj[i].size(); ++j){
-                indegree[adj[i][j]]++;
-            }
-        }
-
-        for (auto num : indegree) cout << num << ' ';
 
         vector<int> topo;
         queue<int> q;
