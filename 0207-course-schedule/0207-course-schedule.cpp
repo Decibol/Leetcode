@@ -2,30 +2,33 @@ class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>> adj(numCourses);
-        unordered_set<int> visited;
+        vector<int> indegree(numCourses);
 
         for (auto const& pair : prerequisites){
-            adj[pair[0]].push_back(pair[1]);
+            adj[pair[1]].push_back(pair[0]);
+            indegree[pair[0]]++;
         }
 
-        function<bool(int)> dfs = [&](int course){
-            if (adj[course].empty()) return true;
+        vector<int> topo;
+        queue<int> q;
+    
+        for (int i = 0; i < indegree.size(); ++i){
+            if (indegree[i] == 0) q.push(i);
+        }
 
-            if (visited.count(course)) return false;
-            visited.insert(course);
+        while (!q.empty()){
+            int course = q.front();
+            q.pop();
+            topo.push_back(course);
 
-            for (int& x : adj[course]){
-                if (!dfs(x)) return false;
+            for (auto const& nextCourse : adj[course]){
+                indegree[nextCourse]--;
+                
+                if (indegree[nextCourse] == 0) q.push(nextCourse);
             }
-
-            adj[course].clear();
-            
-            return true;
-        };
-
-        for (int i = 0; i < numCourses; ++i){
-            if (!dfs(i)) return false;
         }
+
+        if (topo.size() != numCourses) return false;
 
         return true;
     }
