@@ -2,17 +2,14 @@ class Solution {
 public:
     int maximumEnergy(vector<int>& energy, int k) {
         int n = energy.size();
-        int result = INT_MIN;
+        int ans = INT_MIN;
 
-        for (int i = n - k; i < n; ++i){
-            int sum = 0;
-
-            for (int j = i; j >= 0; j -= k){
-                sum += energy[j];
-                result = max(result, sum);
-            }
+        for (int i = n - 1; i >= 0; --i) {
+            if (i + k < n)
+                energy[i] += energy[i + k];
+            ans = max(ans, energy[i]);
         }
-
-        return result;
+        
+        return ans;
     }
 };
