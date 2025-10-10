@@ -18,6 +18,8 @@ public:
                 if (!dfs(x)) return false;
             }
 
+            adj[course].clear();
+            
             return true;
         };
 
