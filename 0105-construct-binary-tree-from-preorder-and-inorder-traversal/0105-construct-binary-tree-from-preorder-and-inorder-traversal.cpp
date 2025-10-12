@@ -10,7 +10,7 @@
  * };
  */
 class Solution {
-private:
+public:
     unordered_map<int, int> inorderMap;
 
     TreeNode *build(vector<int>& preorder, int& preorderIndex, int inorderLeft, int inorderRight){
@@ -27,13 +27,12 @@ private:
         return root;
     }
 
-public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        int preorderIndex = 0;
-        
         for (int i = 0; i < inorder.size(); ++i){
             inorderMap[inorder[i]] = i;
         }
+
+        int preorderIndex = 0;
 
         return build(preorder, preorderIndex, 0, inorder.size() - 1);
     }
