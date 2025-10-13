@@ -1,28 +1,17 @@
 class Solution {
 public:
-    void bfs(int& row, int& col, int& maxArea, vector<vector<int>>& grid, vector<pair<int, int>>& directions, vector<vector<bool>>& visited){
-        queue<pair<int, int>> q;
-        q.push({row, col});
-        visited[row][col] = true;   
-        int area = 1;
-
-        while (!q.empty()){
-            auto [r, c] = q.front();
-            q.pop();
-
-            for (auto const& [dr, dc] : directions){
-                int nr = r + dr;
-                int nc = c + dc;
-
-                if (nr >= 0 && nr < grid.size() && nc >= 0 && nc < grid[0].size() && grid[nr][nc] == 1 && !visited[nr][nc]){
-                    visited[nr][nc] = true;
-                    q.push({nr, nc});
-                    ++area;
-                }
-            }
+    void dfs(int r, int c, int& area, vector<vector<int>>& grid, vector<vector<bool>>& visited){
+        if (r < 0 || r == grid.size() || c < 0 || c == grid[0].size() || grid[r][c] != 1 || visited[r][c]){
+            return;
         }
 
-        maxArea = max(maxArea, area);
+        visited[r][c] = true;
+        ++area;
+
+        dfs(r + 1, c, area, grid, visited);
+        dfs(r - 1, c, area, grid, visited);
+        dfs(r, c + 1, area, grid, visited);
+        dfs(r, c - 1, area, grid, visited);
     }
 
     int maxAreaOfIsland(vector<vector<int>>& grid) {
@@ -30,13 +19,15 @@ public:
         int n = grid[0].size();
 
         vector<vector<bool>> visited(m, vector<bool>(n, false));
-        vector<pair<int, int>> directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
         int maxArea = 0;
         
         for (int i = 0; i < m; ++i){
             for (int j = 0; j < n; ++j){
                 if (grid[i][j] == 1 && !visited[i][j]){
-                    bfs(i, j, maxArea, grid, directions, visited);
+                    int area = 0;
+                    dfs(i, j, area, grid, visited);
+
+                    maxArea = max(maxArea, area);
                 }
             }
         }
