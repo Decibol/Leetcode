@@ -2,34 +2,34 @@ class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         vector<vector<int>> adj(numCourses);
-        vector<int> indegree(numCourses);
+        vector<int> indegrees(numCourses);
 
-        for (auto const& pair : prerequisites){
-            adj[pair[1]].push_back(pair[0]);
-            indegree[pair[0]]++;
+        for (auto const& p : prerequisites){
+            adj[p[1]].push_back(p[0]);
+            indegrees[p[0]]++;
         }
 
-        vector<int> topo;
         queue<int> q;
-    
-        for (int i = 0; i < indegree.size(); ++i){
-            if (indegree[i] == 0) q.push(i);
+        int count = 0;
+
+        for (int i = 0; i < indegrees.size(); ++i){
+            if (indegrees[i] == 0){
+                q.push(i);
+            }
         }
 
         while (!q.empty()){
             int course = q.front();
             q.pop();
-            topo.push_back(course);
+            ++count;
 
-            for (auto const& nextCourse : adj[course]){
-                indegree[nextCourse]--;
+            for (auto const& pre : adj[course]){
+                --indegrees[pre];
                 
-                if (indegree[nextCourse] == 0) q.push(nextCourse);
+                if (indegrees[pre] == 0) q.push(pre);
             }
         }
 
-        if (topo.size() != numCourses) return false;
-
-        return true;
+        return count == numCourses;
     }
 };
