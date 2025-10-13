@@ -1,19 +1,14 @@
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-        int n = needle.size();
-        int left = 0;
+        for (int i = 0; i < haystack.size(); ++i){
+            if (haystack[i] == needle[0]){
+                string s = haystack.substr(i, needle.size());
 
-        while (left < haystack.size()){
-            if (haystack[left] == needle[0]){
-                string substring = haystack.substr(left, n);
-
-                if (substring == needle){
-                    return left;
+                if (s == needle){
+                    return i;
                 }
             }
-
-            left++;
         }
 
         return -1;
