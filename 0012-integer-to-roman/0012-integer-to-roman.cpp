@@ -17,17 +17,17 @@ public:
             {1, "I"}
         };
 
-        string result;
+        string result = "";
 
         for (const auto& [integer, roman] : int_to_roman){
             if (num == 0) break;
 
             while (num >= integer){
-                result += roman;
                 num -= integer;
+                result += roman;
             }
-        }
+        }    
 
-        return result;
+        return result;    
     }
 };
