@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/Decibol/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/Decibol/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Decibol/Leetcode/tree/master/0733-flood-fill) |
+| [0801-is-graph-bipartite](https://github.com/Decibol/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Decibol/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Decibol/Leetcode/tree/master/1036-rotting-oranges) |
@@ -539,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Decibol/Leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Decibol/Leetcode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/Decibol/Leetcode/tree/master/0695-max-area-of-island) |
+| [0801-is-graph-bipartite](https://github.com/Decibol/Leetcode/tree/master/0801-is-graph-bipartite) |
 ## Combinatorics
 |  |
 | ------- |
@@ -723,6 +725,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0687-longest-univalue-path](https://github.com/Decibol/Leetcode/tree/master/0687-longest-univalue-path) |
 | [0695-max-area-of-island](https://github.com/Decibol/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Decibol/Leetcode/tree/master/0733-flood-fill) |
+| [0801-is-graph-bipartite](https://github.com/Decibol/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Decibol/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
@@ -777,6 +780,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Decibol/Leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/Decibol/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Decibol/Leetcode/tree/master/0210-course-schedule-ii) |
+| [0801-is-graph-bipartite](https://github.com/Decibol/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Decibol/Leetcode/tree/master/0820-find-eventual-safe-states) |
 ## Merge Sort
 |  |
