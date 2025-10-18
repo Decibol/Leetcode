@@ -8,7 +8,7 @@ public:
 
         for (int i = start; i <= n; ++i){
             current.push_back(i);
-            
+
             backtrack(i + 1, k, n, current, result);
 
             current.pop_back();
