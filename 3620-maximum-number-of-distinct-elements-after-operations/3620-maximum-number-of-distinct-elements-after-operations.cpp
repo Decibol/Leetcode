@@ -13,9 +13,6 @@ public:
                 current = target;
                 ++result;
             }
-            else {
-                current = max(current, num);
-            }
         }
 
         return result;
