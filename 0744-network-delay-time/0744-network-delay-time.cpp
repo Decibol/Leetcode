@@ -21,13 +21,13 @@ public:
             visited.insert(node);
             time = max(time, weight);
 
-            for (auto [w, nei] : adj[node]){
-                if (!visited.count(nei)){
-                    minHeap.push({weight + w, nei});
+            for (auto [w, u] : adj[node]){
+                if (!visited.count(u)){
+                    minHeap.push({weight + w, u});
                 }
             }
         }
 
-        return visited.size() == n ? time : -1;   
+        return visited.size() == n ? time : -1;
     }
-};
+};  
