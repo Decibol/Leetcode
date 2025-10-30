@@ -1,14 +1,14 @@
 class Solution {
 public:
-    void dfs(int row, int col, vector<vector<int>>& image, int& current, int& color){
-        if (row < 0 || row == image.size() || col < 0 || col == image[0].size() || image[row][col] != current || image[row][col] == color) return;
+    void dfs(int r, int c, vector<vector<int>>& image, int& current, int& color){
+        if (r < 0 || r == image.size() || c < 0 || c == image[0].size() || image[r][c] != current || image[r][c] == color) return;
 
-        image[row][col] = color;
+        image[r][c] = color;
 
-        dfs(row + 1, col, image, current, color);
-        dfs(row - 1, col, image, current, color);
-        dfs(row, col + 1, image, current, color);
-        dfs(row, col - 1, image, current, color);
+        dfs(r - 1, c, image, current, color);
+        dfs(r + 1, c, image, current, color);
+        dfs(r, c + 1, image, current, color);
+        dfs(r, c - 1, image, current, color);
     }
 
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
@@ -16,6 +16,6 @@ public:
 
         dfs(sr, sc, image, current, color);
 
-        return image;
+        return image;    
     }
 };
