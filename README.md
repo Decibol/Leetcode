@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Decibol/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Decibol/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0513-find-bottom-left-tree-value](https://github.com/Decibol/Leetcode/tree/master/0513-find-bottom-left-tree-value) |
+| [0542-01-matrix](https://github.com/Decibol/Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/Decibol/Leetcode/tree/master/0547-number-of-provinces) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Decibol/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/Decibol/Leetcode/tree/master/0498-diagonal-traverse) |
 | [0503-next-greater-element-ii](https://github.com/Decibol/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Decibol/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0542-01-matrix](https://github.com/Decibol/Leetcode/tree/master/0542-01-matrix) |
 | [0611-valid-triangle-number](https://github.com/Decibol/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0645-set-mismatch](https://github.com/Decibol/Leetcode/tree/master/0645-set-mismatch) |
 | [0695-max-area-of-island](https://github.com/Decibol/Leetcode/tree/master/0695-max-area-of-island) |
@@ -241,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Decibol/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/Decibol/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0498-diagonal-traverse](https://github.com/Decibol/Leetcode/tree/master/0498-diagonal-traverse) |
+| [0542-01-matrix](https://github.com/Decibol/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/Decibol/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Decibol/Leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/Decibol/Leetcode/tree/master/1036-rotting-oranges) |
@@ -466,6 +469,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Decibol/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Decibol/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/Decibol/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0542-01-matrix](https://github.com/Decibol/Leetcode/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/Decibol/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Decibol/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
