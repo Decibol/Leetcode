@@ -2,7 +2,6 @@ class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
         int fresh = 0;
-        int time = 0;
         queue<pair<int, int>> q;
 
         for (int i = 0; i < grid.size(); ++i){
@@ -12,6 +11,7 @@ public:
             }
         }
 
+        int time = 0;
         vector<pair<int, int>> directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 
         while (!q.empty() && fresh > 0){
@@ -21,21 +21,22 @@ public:
                 auto [r, c] = q.front();
                 q.pop();
 
-                for (auto [dr, dc] : directions){
+                for (auto const& [dr, dc] : directions){
                     int nr = r + dr;
                     int nc = c + dc;
 
                     if (nr < 0 || nr == grid.size() || nc < 0 || nc == grid[0].size() || grid[nr][nc] != 1) continue;
 
                     grid[nr][nc] = 2;
-                    q.push({nr, nc});
                     --fresh;
+
+                    q.push({nr, nc});
                 }
             }
 
             ++time;
         }
 
-        return fresh != 0 ? -1 : time;
+        return fresh == 0 ? time : -1;
     }
 };
