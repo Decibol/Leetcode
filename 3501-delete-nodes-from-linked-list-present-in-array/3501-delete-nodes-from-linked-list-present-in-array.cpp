@@ -9,24 +9,21 @@
  * };
  */
 class Solution {
-private:
-    void removeNode(ListNode *node){
+public:
+    void deleteNode(ListNode *node){
         ListNode *temp = node->next;
         node->next = temp->next;
     }
-
-public:
+    
     ListNode* modifiedList(vector<int>& nums, ListNode* head) {
-        unordered_set<int> nodesToRemove(nums.begin(), nums.end());
-
+        unordered_set<int> numSet(nums.begin(), nums.end());
         ListNode *dummy = new ListNode(0);
         dummy->next = head;
-
         ListNode *current = dummy;
 
         while (current->next){
-            if (nodesToRemove.count(current->next->val)){
-                removeNode(current);
+            if (numSet.count(current->next->val)){
+                deleteNode(current);
             }
             else {
                 current = current->next;
