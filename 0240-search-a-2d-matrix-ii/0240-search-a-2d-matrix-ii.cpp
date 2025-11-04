@@ -8,11 +8,11 @@ public:
             if (matrix[row][col] == target){
                 return true;
             }
-            else if (matrix[row][col] > target){
-                --col;
+            else if (matrix[row][col] < target){
+                ++row;
             }
             else {
-                ++row;
+                --col;
             }
         }
 
