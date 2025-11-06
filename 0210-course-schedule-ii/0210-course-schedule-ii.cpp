@@ -6,30 +6,31 @@ public:
 
         for (auto const& p : prerequisites){
             adj[p[1]].push_back(p[0]);
-            indegree[p[0]]++;
+            ++indegree[p[0]];
         }
 
         queue<int> q;
-        vector<int> order;
 
-        for (int i = 0; i < numCourses; ++i){
-            if (indegree[i] == 0) q.push(i);
+        for (int num : indegree){
+            if (num == 0) q.push(num);
         }
+
+        vector<int> ordering;
 
         while (!q.empty()){
             int course = q.front();
             q.pop();
-            order.push_back(course);
+            ordering.push_back(course);
 
-            for (auto const& req : adj[course]){
-                --indegree[req];
+            for (auto const& nei : adj[course]){
+                --indegree[nei];
 
-                if (indegree[req] == 0) q.push(req);
+                if (indegree[nei] == 0) q.push(nei);
             }
         }
 
-        if (order.size() != numCourses) return {};
+        if (ordering.size() != numCourses) return {};
 
-        return order;
+        return ordering; 
     }
 };
