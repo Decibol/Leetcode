@@ -1,36 +1,32 @@
 class Solution {
 public:
-    void bfs(int row, int col, vector<vector<int>>& isConnected, vector<bool>& visited){
-        queue<pair<int, int>> q;
-        q.push({row, col});
-
-        while (!q.empty()){
-            auto [r, c] = q.front();
-            q.pop();
-            visited[c] = true;
-
-            for (int j = 0; j < isConnected[c].size(); ++j){
-                if (isConnected[c][j] == 1 && !visited[j]){
-                    q.push({c, j});
-                }
-            }
-        }
-    }
-
-    int findCircleNum(vector<vector<int>>& isConnected) {
-        int count = 0;
+    int findCircleNum(const vector<vector<int>>& isConnected) {
         int n = isConnected.size();
-        vector<bool> visited(n, false);
+        if (n == 0) return 0;
 
-        for (int i = 0; i < n; ++i){
-            for (int j = 0; j < n; ++j){
-                if (isConnected[i][j] == 1 && !visited[j]){
-                    bfs(i, j, isConnected, visited);
-                    ++count;
+        vector<char> visited(n, 0);
+        int provinces = 0;
+
+        for (int i = 0; i < n; ++i) {
+            if (visited[i]) continue;
+            ++provinces;
+
+            queue<int> q;
+            q.push(i);
+            visited[i] = 1;
+            while (!q.empty()){
+                int cur = q.front();
+                q.pop();
+
+                for (int j = 0; j < n; ++j){
+                    if (isConnected[cur][j] && !visited[j]){
+                        visited[j] = 1;
+                        q.push(j);
+                    }
                 }
             }
         }
 
-        return count;
-    }   
+        return provinces;
+    }
 };
