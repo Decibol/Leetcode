@@ -11,10 +11,10 @@ public:
 
         queue<int> q;
 
-        for (int num : indegree){
-            if (num == 0) q.push(num);
+        for (int i = 0; i < numCourses; ++i){
+            if (indegree[i] == 0) q.push(i);
         }
-
+        
         vector<int> ordering;
 
         while (!q.empty()){
