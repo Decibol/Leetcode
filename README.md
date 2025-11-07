@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-distribute-coins-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Decibol/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/Decibol/Leetcode/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/Decibol/Leetcode/tree/master/1073-number-of-enclaves) |
+| [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Decibol/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -127,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-distribute-coins-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Decibol/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -801,6 +804,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-distribute-coins-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/Decibol/Leetcode/tree/master/1073-number-of-enclaves) |
+| [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Brainteaser
