@@ -240,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Decibol/Leetcode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Decibol/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Decibol/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Decibol/Leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Matrix
 |  |
 | ------- |
@@ -306,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Decibol/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Decibol/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Decibol/Leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Decibol/Leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Decibol/Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Divide and Conquer
 |  |
@@ -428,6 +430,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Decibol/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Decibol/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/Decibol/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Decibol/Leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Sliding Window
 |  |
 | ------- |
@@ -640,6 +643,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0937-online-stock-span](https://github.com/Decibol/Leetcode/tree/master/0937-online-stock-span) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/Decibol/Leetcode/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Decibol/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Decibol/Leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Trie
 |  |
 | ------- |
@@ -698,6 +702,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2366-maximum-bags-with-full-capacity-of-rocks](https://github.com/Decibol/Leetcode/tree/master/2366-maximum-bags-with-full-capacity-of-rocks) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Decibol/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Decibol/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Decibol/Leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Prefix Sum
 |  |
 | ------- |
