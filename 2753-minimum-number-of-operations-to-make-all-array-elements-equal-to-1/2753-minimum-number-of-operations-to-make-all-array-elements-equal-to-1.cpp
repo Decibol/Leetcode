@@ -30,7 +30,6 @@ public:
             }
         }
         
-        cout << minLen;
         return minLen + n - 2;
     }
 };
