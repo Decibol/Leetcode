@@ -237,6 +237,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2486-most-frequent-even-element](https://github.com/Decibol/Leetcode/tree/master/2486-most-frequent-even-element) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Decibol/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2551-apply-operations-to-an-array](https://github.com/Decibol/Leetcode/tree/master/2551-apply-operations-to-an-array) |
+| [2625-increment-submatrices-by-one](https://github.com/Decibol/Leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/Decibol/Leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3227-find-missing-and-repeated-values](https://github.com/Decibol/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Decibol/Leetcode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Decibol/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Decibol/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Decibol/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
+| [2625-increment-submatrices-by-one](https://github.com/Decibol/Leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [3227-find-missing-and-repeated-values](https://github.com/Decibol/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 ## Hash Table
 |  |
@@ -725,6 +727,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Decibol/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Decibol/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Decibol/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
+| [2625-increment-submatrices-by-one](https://github.com/Decibol/Leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Decibol/Leetcode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/Decibol/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Decibol/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
