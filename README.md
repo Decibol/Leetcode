@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/Decibol/Leetcode/tree/master/1127-last-stone-weight) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Decibol/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1319-unique-number-of-occurrences](https://github.com/Decibol/Leetcode/tree/master/1319-unique-number-of-occurrences) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/Decibol/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Decibol/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Decibol/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Decibol/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -566,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0755-reach-a-number](https://github.com/Decibol/Leetcode/tree/master/0755-reach-a-number) |
 | [0907-koko-eating-bananas](https://github.com/Decibol/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1046-max-consecutive-ones-iii](https://github.com/Decibol/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/Decibol/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Decibol/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Decibol/Leetcode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 ## Bit Manipulation
