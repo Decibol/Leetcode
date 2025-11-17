@@ -4,11 +4,9 @@ public:
         int i = 0;
         while (i < nums.size() && nums[i] == 0) ++i;
 
-        cout << i;
-
         int j = i;
         ++i;
-        
+
         while (i < nums.size()){
             if (nums[i] == 1){
                 int length = i - j - 1;
