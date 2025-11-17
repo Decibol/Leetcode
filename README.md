@@ -225,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Decibol/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Decibol/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Decibol/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
+| [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/Decibol/Leetcode/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Decibol/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Decibol/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1657-find-the-winner-of-an-array-game](https://github.com/Decibol/Leetcode/tree/master/1657-find-the-winner-of-an-array-game) |
