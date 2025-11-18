@@ -314,6 +314,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0753-open-the-lock](https://github.com/Decibol/Leetcode/tree/master/0753-open-the-lock) |
 | [0768-partition-labels](https://github.com/Decibol/Leetcode/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/Decibol/Leetcode/tree/master/0876-hand-of-straights) |
+| [1023-time-based-key-value-store](https://github.com/Decibol/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Decibol/Leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1319-unique-number-of-occurrences](https://github.com/Decibol/Leetcode/tree/master/1319-unique-number-of-occurrences) |
@@ -415,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0686-repeated-string-match](https://github.com/Decibol/Leetcode/tree/master/0686-repeated-string-match) |
 | [0753-open-the-lock](https://github.com/Decibol/Leetcode/tree/master/0753-open-the-lock) |
 | [0768-partition-labels](https://github.com/Decibol/Leetcode/tree/master/0768-partition-labels) |
+| [1023-time-based-key-value-store](https://github.com/Decibol/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Decibol/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/Decibol/Leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/Decibol/Leetcode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -572,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/Decibol/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0755-reach-a-number](https://github.com/Decibol/Leetcode/tree/master/0755-reach-a-number) |
 | [0907-koko-eating-bananas](https://github.com/Decibol/Leetcode/tree/master/0907-koko-eating-bananas) |
+| [1023-time-based-key-value-store](https://github.com/Decibol/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/Decibol/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Decibol/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Decibol/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -650,6 +653,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0789-kth-largest-element-in-a-stream](https://github.com/Decibol/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/Decibol/Leetcode/tree/master/0937-online-stock-span) |
 | [0969-number-of-recent-calls](https://github.com/Decibol/Leetcode/tree/master/0969-number-of-recent-calls) |
+| [1023-time-based-key-value-store](https://github.com/Decibol/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [2169-simple-bank-system](https://github.com/Decibol/Leetcode/tree/master/2169-simple-bank-system) |
 ## Queue
 |  |
