@@ -252,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/Decibol/Leetcode/tree/master/2551-apply-operations-to-an-array) |
 | [2625-increment-submatrices-by-one](https://github.com/Decibol/Leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/Decibol/Leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
+| [2848-points-that-intersect-with-cars](https://github.com/Decibol/Leetcode/tree/master/2848-points-that-intersect-with-cars) |
 | [3227-find-missing-and-repeated-values](https://github.com/Decibol/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Decibol/Leetcode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Decibol/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2169-simple-bank-system](https://github.com/Decibol/Leetcode/tree/master/2169-simple-bank-system) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Decibol/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2486-most-frequent-even-element](https://github.com/Decibol/Leetcode/tree/master/2486-most-frequent-even-element) |
+| [2848-points-that-intersect-with-cars](https://github.com/Decibol/Leetcode/tree/master/2848-points-that-intersect-with-cars) |
 | [3227-find-missing-and-repeated-values](https://github.com/Decibol/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Decibol/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Decibol/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -758,6 +760,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-max-consecutive-ones-iii](https://github.com/Decibol/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Decibol/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [2625-increment-submatrices-by-one](https://github.com/Decibol/Leetcode/tree/master/2625-increment-submatrices-by-one) |
+| [2848-points-that-intersect-with-cars](https://github.com/Decibol/Leetcode/tree/master/2848-points-that-intersect-with-cars) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Decibol/Leetcode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/Decibol/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Decibol/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
