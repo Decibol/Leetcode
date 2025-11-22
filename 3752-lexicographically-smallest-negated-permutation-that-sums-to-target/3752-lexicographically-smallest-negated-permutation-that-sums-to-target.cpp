@@ -16,16 +16,13 @@ public:
 
         vector<int> result;
         
-        for (int i = 1; i <=n; ++i){
-            if (chosen[i] == 1){
-                result.push_back(-i);
-            }
-            else {
-                result.push_back(i);
-            }
+        for (int i = n; i >= 1; --i){
+            if (chosen[i] == 1) result.push_back(-i);
         }
 
-        sort(result.begin(), result.end());
+        for (int i = 1; i <= n; ++i){
+            if (chosen[i] == 0) result.push_back(i);
+        }
 
         return result;
     }
