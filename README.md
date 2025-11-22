@@ -253,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2625-increment-submatrices-by-one](https://github.com/Decibol/Leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/Decibol/Leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2848-points-that-intersect-with-cars](https://github.com/Decibol/Leetcode/tree/master/2848-points-that-intersect-with-cars) |
+| [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Decibol/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3227-find-missing-and-repeated-values](https://github.com/Decibol/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Decibol/Leetcode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Decibol/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -566,6 +567,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2324-find-triangular-sum-of-an-array](https://github.com/Decibol/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2481-strictly-palindromic-number](https://github.com/Decibol/Leetcode/tree/master/2481-strictly-palindromic-number) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/Decibol/Leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
+| [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Decibol/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3227-find-missing-and-repeated-values](https://github.com/Decibol/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Decibol/Leetcode/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3462-vowels-game-in-a-string](https://github.com/Decibol/Leetcode/tree/master/3462-vowels-game-in-a-string) |
