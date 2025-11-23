@@ -233,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/Decibol/Leetcode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1422-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/Decibol/Leetcode/tree/master/1422-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Decibol/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
+| [1480-running-sum-of-1d-array](https://github.com/Decibol/Leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/Decibol/Leetcode/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Decibol/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Decibol/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
@@ -766,6 +767,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/Decibol/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Decibol/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1435-xor-queries-of-a-subarray](https://github.com/Decibol/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
+| [1480-running-sum-of-1d-array](https://github.com/Decibol/Leetcode/tree/master/1480-running-sum-of-1d-array) |
 | [2625-increment-submatrices-by-one](https://github.com/Decibol/Leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [2848-points-that-intersect-with-cars](https://github.com/Decibol/Leetcode/tree/master/2848-points-that-intersect-with-cars) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Decibol/Leetcode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
