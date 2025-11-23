@@ -19,9 +19,7 @@ public:
 
         if (j < n) nums.insert(nums.end(), nums2.begin() + j, nums2.end());
         if (i < m) nums.insert(nums.end(), nums1.begin() + i, nums1.end());
-        
-        int left = 0;
-        int right = nums.size() - 1;
+
         double median = 0.0;
 
         if (nums.size() % 2 == 1){
