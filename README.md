@@ -219,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/Decibol/Leetcode/tree/master/0733-flood-fill) |
 | [0739-daily-temperatures](https://github.com/Decibol/Leetcode/tree/master/0739-daily-temperatures) |
 | [0753-open-the-lock](https://github.com/Decibol/Leetcode/tree/master/0753-open-the-lock) |
+| [0875-koko-eating-bananas](https://github.com/Decibol/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0876-hand-of-straights](https://github.com/Decibol/Leetcode/tree/master/0876-hand-of-straights) |
 | [0883-car-fleet](https://github.com/Decibol/Leetcode/tree/master/0883-car-fleet) |
 | [0890-lemonade-change](https://github.com/Decibol/Leetcode/tree/master/0890-lemonade-change) |
@@ -601,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/Decibol/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0611-valid-triangle-number](https://github.com/Decibol/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0755-reach-a-number](https://github.com/Decibol/Leetcode/tree/master/0755-reach-a-number) |
+| [0875-koko-eating-bananas](https://github.com/Decibol/Leetcode/tree/master/0875-koko-eating-bananas) |
 | [0907-koko-eating-bananas](https://github.com/Decibol/Leetcode/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/Decibol/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/Decibol/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
