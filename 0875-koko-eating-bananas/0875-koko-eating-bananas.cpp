@@ -6,9 +6,10 @@ public:
         for (const int& pile : piles){
             hours += pile / k;
             if (pile % k != 0) ++hours;
+            if (hours > h) return false;
         }
 
-        return hours <= h;
+        return true;
     }
 
     int minEatingSpeed(vector<int>& piles, int h) {
