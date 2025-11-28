@@ -26,7 +26,7 @@ public:
 
             backtrack(nextRow, nextCol, board, rows, cols, region, solved);
             if (solved) return;
-            
+
             board[row][col] = '.';
             rows[row][i] = false;
             cols[col][i] = false;
