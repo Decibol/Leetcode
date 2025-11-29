@@ -261,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3152-special-array-ii](https://github.com/Decibol/Leetcode/tree/master/3152-special-array-ii) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Decibol/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3227-find-missing-and-repeated-values](https://github.com/Decibol/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Decibol/Leetcode/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/Decibol/Leetcode/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Decibol/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/Decibol/Leetcode/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
@@ -344,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2486-most-frequent-even-element](https://github.com/Decibol/Leetcode/tree/master/2486-most-frequent-even-element) |
 | [2848-points-that-intersect-with-cars](https://github.com/Decibol/Leetcode/tree/master/2848-points-that-intersect-with-cars) |
 | [3227-find-missing-and-repeated-values](https://github.com/Decibol/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Decibol/Leetcode/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Decibol/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Decibol/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Decibol/Leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
@@ -494,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Decibol/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [1046-max-consecutive-ones-iii](https://github.com/Decibol/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Decibol/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Decibol/Leetcode/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Decibol/Leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Two Pointers
 |  |
@@ -745,6 +748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/Decibol/Leetcode/tree/master/1127-last-stone-weight) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Decibol/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/Decibol/Leetcode/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Decibol/Leetcode/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Decibol/Leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Monotonic Queue
 |  |
