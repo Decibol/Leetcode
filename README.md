@@ -356,6 +356,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1733-minimum-number-of-people-to-teach](https://github.com/Decibol/Leetcode/tree/master/1733-minimum-number-of-people-to-teach) |
 | [2169-simple-bank-system](https://github.com/Decibol/Leetcode/tree/master/2169-simple-bank-system) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Decibol/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
+| [2336-smallest-number-in-infinite-set](https://github.com/Decibol/Leetcode/tree/master/2336-smallest-number-in-infinite-set) |
 | [2486-most-frequent-even-element](https://github.com/Decibol/Leetcode/tree/master/2486-most-frequent-even-element) |
 | [2848-points-that-intersect-with-cars](https://github.com/Decibol/Leetcode/tree/master/2848-points-that-intersect-with-cars) |
 | [3227-find-missing-and-repeated-values](https://github.com/Decibol/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
@@ -720,6 +721,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0969-number-of-recent-calls](https://github.com/Decibol/Leetcode/tree/master/0969-number-of-recent-calls) |
 | [1023-time-based-key-value-store](https://github.com/Decibol/Leetcode/tree/master/1023-time-based-key-value-store) |
 | [2169-simple-bank-system](https://github.com/Decibol/Leetcode/tree/master/2169-simple-bank-system) |
+| [2336-smallest-number-in-infinite-set](https://github.com/Decibol/Leetcode/tree/master/2336-smallest-number-in-infinite-set) |
 ## Queue
 |  |
 | ------- |
@@ -772,6 +774,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/Decibol/Leetcode/tree/master/1127-last-stone-weight) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Decibol/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/Decibol/Leetcode/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
+| [2336-smallest-number-in-infinite-set](https://github.com/Decibol/Leetcode/tree/master/2336-smallest-number-in-infinite-set) |
 | [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Decibol/Leetcode/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Decibol/Leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Monotonic Queue
@@ -858,6 +861,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/Decibol/Leetcode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [2336-smallest-number-in-infinite-set](https://github.com/Decibol/Leetcode/tree/master/2336-smallest-number-in-infinite-set) |
 ## Backtracking
 |  |
 | ------- |
