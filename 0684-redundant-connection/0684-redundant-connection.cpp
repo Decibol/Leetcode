@@ -1,38 +1,52 @@
-class Solution {
-private:
-    // Performs DFS and returns true if there's a path between src and target.
-    bool isConnected(int src, int target, vector<bool>& visited,
-                     vector<int> adjList[]){
-        visited[src] = true;
-
-        if (src == target){
-            return true;
-        }
-
-        int isFound = false;
-        for (int adj : adjList[src]){
-            if (!visited[adj]) {
-                isFound = isFound || isConnected(adj, target, visited, adjList);
-            }
-        }
-
-        return isFound;
-    }
+class DisjointSet {
+    vector<int> parent;
+    vector<int> size;
 
 public:
+    DisjointSet(int n){
+        size.resize(n + 1, 1);
+        parent.resize(n + 1);
+        iota(parent.begin(), parent.end(), 0);
+    }
+    
+    int find(int node){
+        if (node == parent[node]){
+            return node;
+        }
+
+        return parent[node] = find(parent[node]);
+    }
+
+    bool unionBySize(int u, int v){
+        int root_u = find(u);
+        int root_v = find(v);
+        
+        if (root_u == root_v) return false;
+
+        if (size[root_u] < size[root_v]){
+            parent[root_u] = root_v;
+            size[root_v] += size[root_u];
+        }
+        else {
+            parent[root_v] = root_u;
+            size[root_u] += size[root_v];
+        }
+
+        return true;
+    }
+};
+
+class Solution {
+public:
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
-        int N = edges.size();
+        int n = edges.size();
+        DisjointSet ds(n);
+        
+        for (auto const& e : edges){
+            int u = e[0];
+            int v = e[1];
 
-        vector<int> adjList[N];
-        for (auto edge : edges){
-            vector<bool> visited(N, false);
-
-            if (isConnected(edge[0] - 1, edge[1] - 1, visited, adjList)){
-                return edge;
-            }
-
-            adjList[edge[0] - 1].push_back(edge[1] - 1);
-            adjList[edge[1] - 1].push_back(edge[0] - 1);
+            if (!ds.unionBySize(u, v)) return e;
         }
 
         return {};
