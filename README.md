@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Decibol/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Decibol/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/Decibol/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1493-frog-position-after-t-seconds](https://github.com/Decibol/Leetcode/tree/master/1493-frog-position-after-t-seconds) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
@@ -713,6 +714,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/Decibol/Leetcode/tree/master/0695-max-area-of-island) |
 | [0801-is-graph-bipartite](https://github.com/Decibol/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/Decibol/Leetcode/tree/master/1073-number-of-enclaves) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/Decibol/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 ## Combinatorics
 |  |
 | ------- |
@@ -946,6 +948,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Decibol/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/Decibol/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/Decibol/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1493-frog-position-after-t-seconds](https://github.com/Decibol/Leetcode/tree/master/1493-frog-position-after-t-seconds) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/Decibol/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -1008,6 +1011,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/Decibol/Leetcode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/Decibol/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Decibol/Leetcode/tree/master/0820-find-eventual-safe-states) |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/Decibol/Leetcode/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1493-frog-position-after-t-seconds](https://github.com/Decibol/Leetcode/tree/master/1493-frog-position-after-t-seconds) |
 ## Merge Sort
 |  |
