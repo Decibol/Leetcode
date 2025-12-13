@@ -278,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/Decibol/Leetcode/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Decibol/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3583-count-special-triplets](https://github.com/Decibol/Leetcode/tree/master/3583-count-special-triplets) |
+| [3606-coupon-code-validator](https://github.com/Decibol/Leetcode/tree/master/3606-coupon-code-validator) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Decibol/Leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Decibol/Leetcode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/Decibol/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
@@ -369,6 +370,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3531-count-covered-buildings](https://github.com/Decibol/Leetcode/tree/master/3531-count-covered-buildings) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/Decibol/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3583-count-special-triplets](https://github.com/Decibol/Leetcode/tree/master/3583-count-special-triplets) |
+| [3606-coupon-code-validator](https://github.com/Decibol/Leetcode/tree/master/3606-coupon-code-validator) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Decibol/Leetcode/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Decibol/Leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Decibol/Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -422,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/Decibol/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [3433-count-mentions-per-user](https://github.com/Decibol/Leetcode/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/Decibol/Leetcode/tree/master/3531-count-covered-buildings) |
+| [3606-coupon-code-validator](https://github.com/Decibol/Leetcode/tree/master/3606-coupon-code-validator) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Decibol/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 ## Counting
 |  |
@@ -484,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2346-largest-3-same-digit-number-in-string](https://github.com/Decibol/Leetcode/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [3462-vowels-game-in-a-string](https://github.com/Decibol/Leetcode/tree/master/3462-vowels-game-in-a-string) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/Decibol/Leetcode/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
+| [3606-coupon-code-validator](https://github.com/Decibol/Leetcode/tree/master/3606-coupon-code-validator) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/Decibol/Leetcode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Decibol/Leetcode/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## Stack
