@@ -285,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3616-make-array-elements-equal-to-zero](https://github.com/Decibol/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/Decibol/Leetcode/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Decibol/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3769-sort-integers-by-binary-reflection](https://github.com/Decibol/Leetcode/tree/master/3769-sort-integers-by-binary-reflection) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Decibol/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/Decibol/Leetcode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Matrix
@@ -427,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3531-count-covered-buildings](https://github.com/Decibol/Leetcode/tree/master/3531-count-covered-buildings) |
 | [3606-coupon-code-validator](https://github.com/Decibol/Leetcode/tree/master/3606-coupon-code-validator) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/Decibol/Leetcode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3769-sort-integers-by-binary-reflection](https://github.com/Decibol/Leetcode/tree/master/3769-sort-integers-by-binary-reflection) |
 ## Counting
 |  |
 | ------- |
