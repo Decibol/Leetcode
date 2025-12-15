@@ -7,7 +7,6 @@ public:
         int i = 1;
         long long count = 1;
 
-
         while (i < prices.size()){
             if (prices[i] == prices[i - 1] - 1){
                 ++size;
