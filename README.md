@@ -256,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/Decibol/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2169-simple-bank-system](https://github.com/Decibol/Leetcode/tree/master/2169-simple-bank-system) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Decibol/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/Decibol/Leetcode/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Decibol/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/Decibol/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/Decibol/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
@@ -365,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1590-make-sum-divisible-by-p](https://github.com/Decibol/Leetcode/tree/master/1590-make-sum-divisible-by-p) |
 | [1733-minimum-number-of-people-to-teach](https://github.com/Decibol/Leetcode/tree/master/1733-minimum-number-of-people-to-teach) |
 | [2169-simple-bank-system](https://github.com/Decibol/Leetcode/tree/master/2169-simple-bank-system) |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/Decibol/Leetcode/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Decibol/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2336-smallest-number-in-infinite-set](https://github.com/Decibol/Leetcode/tree/master/2336-smallest-number-in-infinite-set) |
 | [2486-most-frequent-even-element](https://github.com/Decibol/Leetcode/tree/master/2486-most-frequent-even-element) |
@@ -423,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1829-maximum-units-on-a-truck](https://github.com/Decibol/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/Decibol/Leetcode/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [2054-two-best-non-overlapping-events](https://github.com/Decibol/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/Decibol/Leetcode/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/Decibol/Leetcode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2366-maximum-bags-with-full-capacity-of-rocks](https://github.com/Decibol/Leetcode/tree/master/2366-maximum-bags-with-full-capacity-of-rocks) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/Decibol/Leetcode/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -493,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2147-number-of-ways-to-divide-a-long-corridor](https://github.com/Decibol/Leetcode/tree/master/2147-number-of-ways-to-divide-a-long-corridor) |
 | [2211-count-collisions-on-a-road](https://github.com/Decibol/Leetcode/tree/master/2211-count-collisions-on-a-road) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Decibol/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/Decibol/Leetcode/tree/master/2273-find-resultant-array-after-removing-anagrams) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/Decibol/Leetcode/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/Decibol/Leetcode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [3462-vowels-game-in-a-string](https://github.com/Decibol/Leetcode/tree/master/3462-vowels-game-in-a-string) |
