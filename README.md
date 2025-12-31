@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/Decibol/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/Decibol/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Decibol/Leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/Decibol/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Decibol/Leetcode/tree/master/0744-network-delay-time) |
 | [0753-open-the-lock](https://github.com/Decibol/Leetcode/tree/master/0753-open-the-lock) |
 | [0764-n-ary-tree-level-order-traversal](https://github.com/Decibol/Leetcode/tree/master/0764-n-ary-tree-level-order-traversal) |
@@ -807,6 +808,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/Decibol/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Decibol/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0451-sort-characters-by-frequency](https://github.com/Decibol/Leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0743-network-delay-time](https://github.com/Decibol/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Decibol/Leetcode/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/Decibol/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/Decibol/Leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -967,6 +969,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0687-longest-univalue-path](https://github.com/Decibol/Leetcode/tree/master/0687-longest-univalue-path) |
 | [0695-max-area-of-island](https://github.com/Decibol/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/Decibol/Leetcode/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/Decibol/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Decibol/Leetcode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/Decibol/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Decibol/Leetcode/tree/master/0820-find-eventual-safe-states) |
@@ -1035,6 +1038,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/Decibol/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/Decibol/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/Decibol/Leetcode/tree/master/0684-redundant-connection) |
+| [0743-network-delay-time](https://github.com/Decibol/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Decibol/Leetcode/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/Decibol/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/Decibol/Leetcode/tree/master/0820-find-eventual-safe-states) |
@@ -1053,5 +1057,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/Decibol/Leetcode/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/Decibol/Leetcode/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
