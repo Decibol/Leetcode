@@ -173,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/Decibol/Leetcode/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/Decibol/Leetcode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/Decibol/Leetcode/tree/master/0056-merge-intervals) |
+| [0066-plus-one](https://github.com/Decibol/Leetcode/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/Decibol/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/Decibol/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/Decibol/Leetcode/tree/master/0075-sort-colors) |
@@ -621,6 +622,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/Decibol/Leetcode/tree/master/0050-powx-n) |
 | [0060-permutation-sequence](https://github.com/Decibol/Leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/Decibol/Leetcode/tree/master/0062-unique-paths) |
+| [0066-plus-one](https://github.com/Decibol/Leetcode/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Decibol/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0202-happy-number](https://github.com/Decibol/Leetcode/tree/master/0202-happy-number) |
 | [0326-power-of-three](https://github.com/Decibol/Leetcode/tree/master/0326-power-of-three) |
