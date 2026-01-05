@@ -252,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1657-find-the-winner-of-an-array-game](https://github.com/Decibol/Leetcode/tree/master/1657-find-the-winner-of-an-array-game) |
 | [1733-minimum-number-of-people-to-teach](https://github.com/Decibol/Leetcode/tree/master/1733-minimum-number-of-people-to-teach) |
 | [1829-maximum-units-on-a-truck](https://github.com/Decibol/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
+| [1975-maximum-matrix-sum](https://github.com/Decibol/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [1985-find-the-kth-largest-integer-in-the-array](https://github.com/Decibol/Leetcode/tree/master/1985-find-the-kth-largest-integer-in-the-array) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/Decibol/Leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2054-two-best-non-overlapping-events](https://github.com/Decibol/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
@@ -318,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/Decibol/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/Decibol/Leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1275-find-winner-on-a-tic-tac-toe-game](https://github.com/Decibol/Leetcode/tree/master/1275-find-winner-on-a-tic-tac-toe-game) |
+| [1975-maximum-matrix-sum](https://github.com/Decibol/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/Decibol/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2625-increment-submatrices-by-one](https://github.com/Decibol/Leetcode/tree/master/2625-increment-submatrices-by-one) |
 | [3195-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Decibol/Leetcode/tree/master/3195-find-the-minimum-area-to-cover-all-ones-i) |
@@ -848,6 +850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/Decibol/Leetcode/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1733-minimum-number-of-people-to-teach](https://github.com/Decibol/Leetcode/tree/master/1733-minimum-number-of-people-to-teach) |
 | [1829-maximum-units-on-a-truck](https://github.com/Decibol/Leetcode/tree/master/1829-maximum-units-on-a-truck) |
+| [1975-maximum-matrix-sum](https://github.com/Decibol/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/Decibol/Leetcode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2366-maximum-bags-with-full-capacity-of-rocks](https://github.com/Decibol/Leetcode/tree/master/2366-maximum-bags-with-full-capacity-of-rocks) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/Decibol/Leetcode/tree/master/2497-maximum-matching-of-players-with-trainers) |
