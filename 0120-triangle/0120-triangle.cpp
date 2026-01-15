@@ -9,7 +9,7 @@ public:
                 triangle[i][j] += min(left, right);
             }
         }
-        
+
         return triangle[0][0];
     }
 };
