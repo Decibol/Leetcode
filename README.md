@@ -273,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/Decibol/Leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2761-prime-pairs-with-target-sum](https://github.com/Decibol/Leetcode/tree/master/2761-prime-pairs-with-target-sum) |
 | [2848-points-that-intersect-with-cars](https://github.com/Decibol/Leetcode/tree/master/2848-points-that-intersect-with-cars) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Decibol/Leetcode/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3152-special-array-ii](https://github.com/Decibol/Leetcode/tree/master/3152-special-array-ii) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Decibol/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3195-find-the-minimum-area-to-cover-all-ones-i](https://github.com/Decibol/Leetcode/tree/master/3195-find-the-minimum-area-to-cover-all-ones-i) |
@@ -649,6 +650,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2481-strictly-palindromic-number](https://github.com/Decibol/Leetcode/tree/master/2481-strictly-palindromic-number) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/Decibol/Leetcode/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [2761-prime-pairs-with-target-sum](https://github.com/Decibol/Leetcode/tree/master/2761-prime-pairs-with-target-sum) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Decibol/Leetcode/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/Decibol/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3227-find-missing-and-repeated-values](https://github.com/Decibol/Leetcode/tree/master/3227-find-missing-and-repeated-values) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Decibol/Leetcode/tree/master/3279-alice-and-bob-playing-flower-game) |
@@ -1033,6 +1035,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/Decibol/Leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/Decibol/Leetcode/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 ## Bucket Sort
 |  |
 | ------- |
