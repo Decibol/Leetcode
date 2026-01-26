@@ -198,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Decibol/Leetcode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Decibol/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/Decibol/Leetcode/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/Decibol/Leetcode/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/Decibol/Leetcode/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/Decibol/Leetcode/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Decibol/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -576,6 +577,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/Decibol/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0165-compare-version-numbers](https://github.com/Decibol/Leetcode/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Decibol/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/Decibol/Leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Decibol/Leetcode/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/Decibol/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/Decibol/Leetcode/tree/master/0287-find-the-duplicate-number) |
@@ -630,6 +632,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/Decibol/Leetcode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/Decibol/Leetcode/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Decibol/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0189-rotate-array](https://github.com/Decibol/Leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Decibol/Leetcode/tree/master/0202-happy-number) |
 | [0326-power-of-three](https://github.com/Decibol/Leetcode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/Decibol/Leetcode/tree/master/0342-power-of-four) |
