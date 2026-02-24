@@ -1084,4 +1084,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2761-prime-pairs-with-target-sum](https://github.com/Decibol/Leetcode/tree/master/2761-prime-pairs-with-target-sum) |
+## Union-Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Decibol/Leetcode/tree/master/0547-number-of-provinces) |
+## Graph Theory
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/Decibol/Leetcode/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
