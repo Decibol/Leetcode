@@ -1,31 +1,56 @@
-class Solution {
+class DSU {
 public:
-    void dfs(int node, vector<vector<int>>& isConnected, vector<bool>& visited){
-        if (visited[node]) return;
+    vector<int> parent;
+    vector<int> size;
 
-        visited[node] = true;
-
-        for (int i = 0; i < isConnected.size(); ++i){
-            if (isConnected[node][i] == 1 && !visited[i]){
-                dfs(i, isConnected, visited);
-            }
-        }
+    DSU(int n){
+        size.resize(n, 1);
+        parent.resize(n);
+        iota(parent.begin(), parent.end(), 0);
     }
 
+    int find(int node){
+        if (node == parent[node]) return node;
+
+        return parent[node] = find(parent[node]);
+    }
+
+    void unite(int u, int v){
+        int x = find(u);
+        int y = find(v);
+
+        if (x == y) return;
+
+        if (size[y] > size[x]){
+            parent[x] = y;
+            size[y] += size[x];
+        }
+        else {
+            parent[y] = x;
+            size[x] += size[y];
+        }
+    }
+};
+
+class Solution {
+public:
     int findCircleNum(vector<vector<int>>& isConnected) {
-        int provinces = 0;
-        int n = isConnected.size();
-        if (n == 0) return 0;
+        DSU ds(isConnected.size());
 
-        vector<bool> visited(n, false);
-
-        for (int i = 0; i < n; ++i){
-            if (!visited[i]){
-                dfs(i, isConnected, visited);
-                ++provinces;
+        for (int i = 0; i < isConnected.size(); ++i){
+            for (int j = 0; j < isConnected.size(); ++j){
+                if (i != j && isConnected[i][j]){
+                    ds.unite(i, j);
+                }
             }
         }
 
-        return provinces;    
+        unordered_set<int> ultimateParent;
+
+        for (int i = 0; i < ds.parent.size(); ++i){
+            ultimateParent.insert(ds.find(i));
+        }
+
+        return ultimateParent.size();
     }
 };
