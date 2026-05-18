@@ -606,6 +606,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/Decibol/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/Decibol/Leetcode/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/Decibol/Leetcode/tree/master/0062-unique-paths) |
+| [0070-climbing-stairs](https://github.com/Decibol/Leetcode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/Decibol/Leetcode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/Decibol/Leetcode/tree/master/0119-pascals-triangle-ii) |
 | [0120-triangle](https://github.com/Decibol/Leetcode/tree/master/0120-triangle) |
@@ -635,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0060-permutation-sequence](https://github.com/Decibol/Leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/Decibol/Leetcode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/Decibol/Leetcode/tree/master/0066-plus-one) |
+| [0070-climbing-stairs](https://github.com/Decibol/Leetcode/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Decibol/Leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/Decibol/Leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/Decibol/Leetcode/tree/master/0202-happy-number) |
@@ -1096,4 +1098,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Decibol/Leetcode/tree/master/0547-number-of-provinces) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/Decibol/Leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
