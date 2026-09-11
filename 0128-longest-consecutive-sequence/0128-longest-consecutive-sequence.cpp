@@ -6,18 +6,12 @@ public:
 
         for (auto x : nums){
             if (!numSet.count(x - 1)){
-                int curr = x;
                 int count = 1;
 
-                while (true){
-                    if (numSet.count(x + 1)){
-                        ++count;
-                        numSet.erase(x);
-                        x += 1;
-                    }
-                    else {
-                        break;
-                    }
+                while (numSet.count(x + 1)){
+                    numSet.erase(x);
+                    ++x;
+                    ++count;
                 }
 
                 longest = max(longest, count);
